@@ -112,138 +112,175 @@
     </p>
 
     <!-- Team Grid -->
-    <div class="row gtr-50">
-/* Make all team member images the same size */
-.image.fit img {
-    width: 100%;           /* image fills container width */
-    height: 250px;         /* set the same height for all images */
-    object-fit: cover;     /* crop/scale to fill without distortion */
-    display: block;        /* remove extra space below images */
-    border-radius: 8px;    /* optional: rounded corners */
+    <!-- Add this in your <head> or CSS file -->
+<style>
+/* Team Grid Styles */
+.row.gtr-50 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* spacing between team members */
 }
-      <!-- Team member -->
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/jacob-montgomery.jpg" alt="Dr. Jacob Montgomery">
-        </span>
-        <h3>Dr. Jacob Montgomery</h3>
-        <p class="team-title">
-          Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/margit-tavits.jpg" alt="Dr. Margit Tavits">
-        </span>
-        <h3>Dr. Margit Tavits</h3>
-        <p class="team-title">
-          Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
+.col-4 {
+  flex: 0 0 calc(33.333% - 2rem);
+  box-sizing: border-box;
+}
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/christopher-lucas.jpg" alt="Dr. Christopher Lucas">
-        </span>
-        <h3>Dr. Christopher Lucas</h3>
-        <p class="team-title">
-          Associate Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
+.col-6-medium {
+  flex: 0 0 calc(50% - 2rem);
+}
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/taishi-muraoka.jpg" alt="Dr. Taishi Muraoka">
-        </span>
-        <h3>Dr. Taishi Muraoka</h3>
-        <p class="team-title">
-          Assistant Research Fellow/Professor<br>
-          Institute of Political Science at Academia Sinica
-        </p>
-      </div>
+.col-12-small {
+  flex: 0 0 100%;
+}
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/dahjin-kim.jpg" alt="Dr. Dahjin Kim">
-        </span>
-        <h3>Dr. Dahjin Kim</h3>
-        <p class="team-title">
-          Assistant Professor of Asian Studies and Global Affairs<br>
-          University of Notre Dame
-        </p>
-      </div>
+.team-member {
+  text-align: center;
+}
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit zoom-out">
-  <img src="images/jamie-hicks.jpg" alt="Jamie Hicks">
-</span>
-        <h3>Jamie Hicks</h3>
-        <p class="team-title">
-          Project Coordinator II<br>
-          Washington University in St. Louis
-        </p>
-      </div>
+.team-member .image-container {
+  width: 100%;
+  height: 250px; /* fixed height for all images */
+  overflow: hidden;
+  border-radius: 8px; /* optional rounded corners */
+  margin-bottom: 1rem;
+}
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/cecilia-sui.jpg" alt="Cecilia Yuan Sui">
-        </span>
-        <h3>Cecilia Yuan Sui</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
+.team-member .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures images fill container without distortion */
+  display: block;
+}
+</style>
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/soyeon-jeon.jpg" alt="Soyeon Jeon">
-        </span>
-        <h3>Soyeon Jeon</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
+<!-- Team Grid -->
+<div class="row gtr-50">
 
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/raduan-meira.jpg" alt="Raduan van Velthem Meira">
-        </span>
-        <h3>Raduan van Velthem Meira</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/hongyu-yu.jpg" alt="Hongyu Yu">
-        </span>
-        <h3>Hongyu Yu</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/tianlang-zhao.jpg" alt="Tianlang Leona Zhao">
-        </span>
-        <h3>Tianlang Leona Zhao</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
+  <!-- Team member -->
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/jacob-montgomery.jpg" alt="Dr. Jacob Montgomery">
     </div>
+    <h3>Dr. Jacob Montgomery</h3>
+    <p class="team-title">
+      Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/margit-tavits.jpg" alt="Dr. Margit Tavits">
+    </div>
+    <h3>Dr. Margit Tavits</h3>
+    <p class="team-title">
+      Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/christopher-lucas.jpg" alt="Dr. Christopher Lucas">
+    </div>
+    <h3>Dr. Christopher Lucas</h3>
+    <p class="team-title">
+      Associate Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/taishi-muraoka.jpg" alt="Dr. Taishi Muraoka">
+    </div>
+    <h3>Dr. Taishi Muraoka</h3>
+    <p class="team-title">
+      Assistant Research Fellow/Professor<br>
+      Institute of Political Science at Academia Sinica
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/dahjin-kim.jpg" alt="Dr. Dahjin Kim">
+    </div>
+    <h3>Dr. Dahjin Kim</h3>
+    <p class="team-title">
+      Assistant Professor of Asian Studies and Global Affairs<br>
+      University of Notre Dame
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/jamie-hicks.jpg" alt="Jamie Hicks">
+    </div>
+    <h3>Jamie Hicks</h3>
+    <p class="team-title">
+      Project Coordinator II<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/cecilia-sui.jpg" alt="Cecilia Yuan Sui">
+    </div>
+    <h3>Cecilia Yuan Sui</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/soyeon-jeon.jpg" alt="Soyeon Jeon">
+    </div>
+    <h3>Soyeon Jeon</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/raduan-meira.jpg" alt="Raduan van Velthem Meira">
+    </div>
+    <h3>Raduan van Velthem Meira</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/hongyu-yu.jpg" alt="Hongyu Yu">
+    </div>
+    <h3>Hongyu Yu</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 col-6-medium col-12-small team-member">
+    <div class="image-container">
+      <img src="images/tianlang-zhao.jpg" alt="Tianlang Leona Zhao">
+    </div>
+    <h3>Tianlang Leona Zhao</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+</div>
+
 
     <!-- Acknowledgments -->
     <div class="acknowledgment">
@@ -432,6 +469,7 @@
 	</body>
 
 </html>
+
 
 
 
