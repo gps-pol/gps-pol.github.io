@@ -20,22 +20,13 @@
     <a href="index.html">Global Political Social Media Project</a>
   </h1>
 
-  <nav id="nav">
-    <ul>
-      <li class="current"><a href="index.html">About Us</a></li>
-
-      <li class="submenu">
-        <a href="#">Dataset</a>
-        <ul>
-          <li><a href="datacontent.html">Data Content</a></li>
-          <li><a href="datasharing.html">Data Sharing Agreement</a></li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="#" class="button primary">Request Form</a>
-      </li>
-    </ul>
+<nav id="nav">
+  <ul>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#dataset">Dataset</a></li>
+    <li><a href="#request" class="button primary">Request Form</a></li>
+  </ul>
+</nav>
   #nav {
   position: absolute;
   right: 2em;   /* adjust this value */
@@ -83,7 +74,30 @@
 						<br />
 					</header>
 
+<section id="dataset" class="wrapper style3">
+  <div class="container">
+    <header class="major">
+      <h2>About the Dataset</h2>
+    </header>
 
+    <p>
+      The GPS-POL dataset is the world’s largest archive of political social media content,
+      covering candidates, parties, and political actors across multiple platforms and countries.
+    </p>
+
+    <ul>
+      <li>Millions of posts from political actors worldwide</li>
+      <li>Multiple election cycles and political systems</li>
+      <li>Standardized party and candidate identifiers</li>
+      <li>Metadata suitable for large-scale computational analysis</li>
+    </ul>
+
+    <p>
+      Access to the dataset is provided for academic research purposes under a data sharing
+      agreement.
+    </p>
+  </div>
+</section>
 					<!-- One -->
 						<section class="wrapper style3 container special">
 
@@ -148,12 +162,69 @@
 
 				</article>
 
+<section id="about" class="wrapper style2">
+  <div class="container">
+    <header class="major">
+      <h2>About the Project</h2>
+    </header>
 
+    <p>
+      The Global Political Social Media Project (GPS-POL) is an international research initiative
+      dedicated to collecting, preserving, and sharing political social media data across
+      democracies. Our goal is to support transparent, reproducible research on political behavior,
+      communication, and democratic processes.
+    </p>
+
+    <h3>Our Team</h3>
+    <p>
+      GPS-POL is led by an interdisciplinary team of scholars in political science, psychology,
+      and computational social science. The project is based at Washington University in St. Louis
+      and collaborates with researchers worldwide.
+    </p>
+  </div>
+</section>
+
+									
+
+
+									<section id="request" class="wrapper style4 special container medium">
+  <header>
+    <h2>Request Dataset Access</h2>
+    <p>Please complete the form below to request access to the GPS-POL dataset.</p>
+  </header>
+
+  <form>
+    <div class="row gtr-50">
+      <div class="col-6 col-12-mobile">
+        <input type="text" name="name" placeholder="Full Name" required />
+      </div>
+
+      <div class="col-6 col-12-mobile">
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="col-12">
+        <input type="text" name="institution" placeholder="Institution / Affiliation" required />
+      </div>
+
+      <div class="col-12">
+        <textarea name="request" placeholder="Brief description of requested data and intended use"
+                  rows="6" required></textarea>
+      </div>
+
+      <div class="col-12">
+        <ul class="buttons">
+          <li><input type="submit" value="Submit Request" class="special" /></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</section>
+									
 			<!-- Footer -->
 				<footer id="footer">
 
 					<ul class="icons">
-
 
 <p class="follow-text">Follow us on social media</p>
 
@@ -218,6 +289,7 @@
 	</body>
 
 </html>
+
 
 
 
