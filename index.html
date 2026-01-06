@@ -418,33 +418,36 @@
 
 
 
-									<section id="request" class="wrapper style4 special container medium">
- <section class="wrapper style2 container special">
+									<!-- Request Dataset Access -->
+<section id="request" class="wrapper style4 special container medium">
   <header class="major">
     <h2>Request Dataset Access</h2>
     <p>Please complete the form below to request access to the GPS-POL dataset.</p>
   </header>
 
   <div class="request-box">
-
     <form action="mailto:globalcampaignrhetoric@wustl.edu"
           method="post"
           enctype="text/plain">
 
       <div class="row gtr-50">
 
+        <!-- Full Name -->
         <div class="col-6 col-12-mobile">
           <input type="text" name="Full Name" placeholder="Full Name" required />
         </div>
 
+        <!-- Email -->
         <div class="col-6 col-12-mobile">
           <input type="email" name="Email" placeholder="Email Address" required />
         </div>
 
+        <!-- Institution -->
         <div class="col-12">
           <input type="text" name="Institution" placeholder="Institution / Affiliation" required />
         </div>
 
+        <!-- Request Description -->
         <div class="col-12">
           <textarea name="Request"
                     placeholder="Brief description of requested data and intended use"
@@ -452,6 +455,7 @@
                     required></textarea>
         </div>
 
+        <!-- Submit Button -->
         <div class="col-12">
           <ul class="buttons">
             <li>
@@ -462,11 +466,25 @@
 
       </div>
     </form>
-
   </div>
 </section>
 
-</form>
+<style>
+/* Request Form Box */
+.request-box {
+  background: #f7f7f7;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Input and textarea styling */
+.request-box input[type="text"],
+.request-box input[type="email"],
+.request-b
+
 
 									
 <!-- Footer -->
@@ -610,6 +628,7 @@
 	</body>
 
 </html>
+
 
 
 
