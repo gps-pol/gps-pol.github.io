@@ -469,71 +469,133 @@
 </form>
 
 									
-			<!-- Footer -->
-				<footer id="footer">
+<!-- Footer -->
+<footer id="footer">
 
-					<ul class="icons">
-
-<p class="follow-text">Follow us on social media</p>
-
-  <!-- Instagram -->
-  <li>
-    <a href="https://www.instagram.com/gps_pol"
-       class="icon brands circle fa-instagram"
-       target="_blank" rel="noopener">
-      <span class="label">Instagram</span>
-    </a>
-  </li>
-
-  <!-- LinkedIn -->
-  <li>
-    <a href="https://www.linkedin.com/in/global-political-social-media-project/"
-       class="icon brands circle fa-linkedin-in"
-       target="_blank" rel="noopener">
-      <span class="label">LinkedIn</span>
-    </a>
-  </li>
-
-  <!-- Bluesky (text fallback – safest) -->
-  <li>
-    <a href="https://bsky.app/profile/gps-pol.bsky.social"
-       class="icon circle"
-       target="_blank" rel="noopener">
-      <span class="label">Bluesky</span>
-      🦋
-    </a>
-  </li>
-					
-  <!-- Twitter / X -->
-  <li>
-    <a href="https://twitter.com/gps_pol"
-       class="icon brands circle fa-twitter"
-       target="_blank" rel="noopener">
-      <span class="label">Twitter</span>
-    </a>
-  </li>
-			<ul class="icons">
-			</ul>
-<li>
-
-	<p class="follow-text">Email us</p>
-
-  <a href="mailto:globalcampaignrhetoric@wustl.edu"
-     class="icon solid circle fa-envelope">
-    <span class="label">Email</span>
-  </a>
-</li>
-						  </div>
+  <!-- Social Media -->
+  <div class="footer-social">
+    <p class="follow-text">Follow us on social media</p>
+    <ul class="icons">
+      <li>
+        <a href="https://www.instagram.com/gps_pol"
+           class="icon brands circle fa-instagram"
+           target="_blank" rel="noopener">
+          <span class="label">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/global-political-social-media-project/"
+           class="icon brands circle fa-linkedin-in"
+           target="_blank" rel="noopener">
+          <span class="label">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/gps-pol.bsky.social"
+           class="icon circle"
+           target="_blank" rel="noopener">
+          <span class="label">Bluesky</span> 🦋
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/gps_pol"
+           class="icon brands circle fa-twitter"
+           target="_blank" rel="noopener">
+          <span class="label">Twitter</span>
+        </a>
+      </li>
+    </ul>
   </div>
 
-					<ul class="copyright">
-						<li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+  <!-- Email -->
+  <div class="footer-email">
+    <p class="follow-text">Email us</p>
+    <a href="mailto:globalcampaignrhetoric@wustl.edu"
+       class="icon solid circle fa-envelope">
+      <span class="label">Email</span>
+    </a>
+  </div>
 
+  <!-- Copyright -->
+  <ul class="copyright">
+    <li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li>
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+  </ul>
 
-				</footer>
+</footer>
 
-		</div>
+<style>
+/* Footer styling */
+#footer {
+  padding: 3rem 1rem;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+#footer .follow-text {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#footer .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+#footer .icons li {
+  display: inline-block;
+}
+
+#footer .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #444;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+#footer .icon:hover {
+  background: #666;
+}
+
+#footer .footer-email {
+  margin-bottom: 1.5rem;
+}
+
+#footer .footer-email .icon {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer ul.copyright {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+#footer ul.copyright li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+</style>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -548,6 +610,7 @@
 	</body>
 
 </html>
+
 
 
 
