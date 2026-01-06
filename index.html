@@ -425,17 +425,17 @@
 
 									
 <!-- ==================== Request Dataset Access ==================== -->
-<section id="request" class="wrapper style4 special container medium">
+<section id="request" class="wrapper style4 special container">
   <div class="request-box" style="
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 2rem;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 2rem auto;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   ">
-    <header class="major" style="text-align:center; margin-bottom:1.5rem;">
+    <header class="major" style="text-align:center; margin-bottom:2rem;">
       <h2>Request Dataset Access</h2>
       <p>Please complete the form below to request access to the GPS-POL dataset.</p>
     </header>
@@ -443,23 +443,28 @@
     <form action="send_request.php" method="post">
       <div class="row gtr-50">
 
+        <!-- Full Name -->
         <div class="col-6 col-12-mobile">
           <input type="text" name="Full Name" placeholder="Full Name" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc;"/>
         </div>
 
+        <!-- Email -->
         <div class="col-6 col-12-mobile">
           <input type="email" name="Email" placeholder="Email Address" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc;"/>
         </div>
 
+        <!-- Institution -->
         <div class="col-12">
-          <input type="text" name="Institution" placeholder="Institution / Affiliation" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc;"/>
+          <input type="text" name="Institution" placeholder="Institution / Affiliation" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc; margin-top:1rem;"/>
         </div>
 
+        <!-- Request Description -->
         <div class="col-12">
-          <textarea name="Request" placeholder="Brief description of requested data and intended use" rows="6" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc;"></textarea>
+          <textarea name="Request" placeholder="Brief description of requested data and intended use" rows="6" required style="width:100%; padding:0.75rem; border-radius:6px; border:1px solid #ccc; margin-top:1rem;"></textarea>
         </div>
 
-        <div class="col-12" style="text-align:center; margin-top:1rem;">
+        <!-- Submit Button -->
+        <div class="col-12" style="text-align:center; margin-top:2rem;">
           <input type="submit" value="Submit Request" class="special" style="
             background-color:#0055a5;
             color:#fff;
@@ -705,6 +710,7 @@
 	</body>
 
 </html>
+
 
 
 
