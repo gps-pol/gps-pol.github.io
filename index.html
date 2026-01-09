@@ -3,18 +3,47 @@
   GPS-POL
   globalcampaignrhetoric@wustl.edu
 -->
-<html>
+<html lang="en">
   <head>
     <title>Global Political Social Media Project</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+
+    <!-- Banner black box styling -->
+    <style>
+      #banner .inner {
+        background: rgba(0, 0, 0, 0.85);
+        color: #ffffff;
+        padding: 3em 2.5em;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      #banner .inner h2,
+      #banner .inner p {
+        color: #ffffff;
+      }
+
+      #banner .inner .button {
+        background-color: #ffffff;
+        color: #000000 !important;
+        border: none;
+      }
+
+      #banner .inner .button:hover {
+        background-color: #e6e6e6;
+        color: #000000 !important;
+      }
+    </style>
   </head>
 
-  <!-- IMPORTANT: use "landing" so banner appears -->
+  <!-- IMPORTANT: landing makes banner visible -->
   <body class="landing is-preload">
     <div id="page-wrapper">
 
@@ -43,9 +72,7 @@
             <h2>GPS-POL</h2>
           </header>
 
-          <p>
-            Global Political Social Media Project
-          </p>
+          <p>Global Political Social Media Project</p>
 
           <ul class="buttons stacked">
             <li>
@@ -58,36 +85,22 @@
         </div>
       </section>
 
-/* Black banner box with white text */
-#banner .inner {
-  background: rgba(0, 0, 0, 0.85);
-  color: #ffffff;
-  padding: 3em 2.5em;
-  border-radius: 8px;
-}
+      <!-- Main content anchor -->
+      <div id="main"></div>
 
-/* Heading text */
-#banner .inner h2 {
-  color: #ffffff;
-}
+    </div>
 
-/* Paragraph text */
-#banner .inner p {
-  color: #ffffff;
-}
+    <!-- Scripts (required for HTML5 UP templates) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-/* Button styling */
-#banner .inner .button {
-  background-color: #ffffff;
-  color: #000000 !important;
-  border: none;
-}
+  </body>
+</html>
 
-/* Button hover */
-#banner .inner .button:hover {
-  background-color: #e6e6e6;
-  color: #000000 !important;
-}
 
 			<!-- Main -->
 				<article id="main">
@@ -630,6 +643,7 @@
 
 </body>
 </html>
+
 
 
 
