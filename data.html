@@ -262,38 +262,78 @@
 
     <div class="container">
 
-  <h2>Specific Election Files</h2>
-  <p class="intro">
-    For each election, you can download the candidate, district, and region files below.
-  </p>
+  <style>
+  .election-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.95rem;
+    margin-top: 1.5em;
+  }
 
-  <table class="election-table">
-    <thead>
-      <tr>
-        <th>Election</th>
-        <th>Candidate File</th>
-        <th>District File</th>
-        <th>Region File</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Albania 2021</td>
-        <td><a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">Candidate file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">District file</a></td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>United States 2020</td>
-        <td><a href="https://wustl.box.com/shared/static/cucgm462j75n3ne1g95fzzjnmzuzvbcl" target="_blank" rel="noopener">Candidate file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/9uiuts1bopat2pxdktsibeoac62nkaua" target="_blank" rel="noopener">District file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/65ifc1xpwic9eh56hrwi64obm8q4uuhx" target="_blank" rel="noopener">Region file</a></td>
-      </tr>
-      <!-- Add more rows here -->
-    </tbody>
-  </table>
+  .election-table th,
+  .election-table td {
+    padding: 0.8em 1em;
+    text-align: left;
+  }
 
-</div>
+  .election-table thead th {
+    background-color: #c0392b; /* banner red */
+    color: #fff;
+    font-weight: 600;
+  }
 
-</div>
+  .election-table tbody tr:nth-child(even) {
+    background-color: #fdecea; /* light red for alternating rows */
+  }
 
+  .election-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+  .election-table td a {
+    color: #006d6f;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .election-table td a:hover {
+    text-decoration: underline;
+    color: #004f52;
+  }
+
+  .election-table td {
+    border-bottom: 1px solid #e0e0e0;
+  }
+</style>
+
+<h2>Specific Election Files</h2>
+<p class="intro">
+  For each election, you can download the candidate, district, and region files below.
+</p>
+
+<table class="election-table">
+  <thead>
+    <tr>
+      <th>Election</th>
+      <th>Candidate File</th>
+      <th>District File</th>
+      <th>Region File</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Albania 2021</td>
+      <td><a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">Candidate file</a></td>
+      <td><a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">District file</a></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>United States 2020</td>
+      <td><a href="https://wustl.box.com/shared/static/cucgm462j75n3ne1g95fzzjnmzuzvbcl" target="_blank" rel="noopener">Candidate file</a></td>
+      <td><a href="https://wustl.box.com/shared/static/9uiuts1bopat2pxdktsibeoac62nkaua" target="_blank" rel="noopener">District file</a></td>
+      <td><a href="https://wustl.box.com/shared/static/65ifc1xpwic9eh56hrwi64obm8q4uuhx" target="_blank" rel="noopener">Region file</a></td>
+    </tr>
+    <!-- Add your remaining 41 rows here -->
+  </tbody>
+</table>
