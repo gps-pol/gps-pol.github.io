@@ -326,10 +326,14 @@
     .election-table th:nth-child(6),
     .election-table td:nth-child(6) { width: 15%; } /* File links */
 
-    /* Responsive horizontal scroll */
-    .container wide-table {
-      overflow-x: auto;
-    }
+    /* Make this section wider than the normal container */
+.wide-table {
+  max-width: 1400px;   /* adjust if you want even wider */
+  width: 95%;
+  margin: 0 auto;
+  overflow-x: visible; /* NO horizontal scrolling */
+}
+
 
   </style>
 
