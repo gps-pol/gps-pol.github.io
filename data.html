@@ -6,51 +6,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f7faf9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4em 1.5em;
+      text-align: center;
+    }
+
+    h1 {
+      color: #083d3f;
+      font-size: 2.2rem;
+      margin-bottom: 0.5em;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #4a6b6c;
+      margin-bottom: 2.5em;
+      line-height: 1.6;
+    }
+
+    .download-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2em;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      margin-bottom: 1.5em;
+    }
+
+    .download-card h2 {
+      margin-top: 0;
+      color: #083d3f;
+      font-size: 1.3rem;
+    }
+
+    .download-card p {
+      color: #5f7f80;
+      margin-bottom: 1.5em;
+      font-size: 0.95rem;
+    }
+
     .download-button {
       display: inline-block;
-      padding: 14px 28px;
-      background-color: #006d6f; /* dark teal */
+      padding: 14px 30px;
+      background-color: #006d6f;
       color: #ffffff;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 999px; /* pill-shaped */
       font-weight: 600;
-      font-size: 16px;
-      margin-top: 16px;
+      font-size: 15px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
     }
 
     .download-button:hover {
       background-color: #004f52;
+      transform: translateY(-2px);
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Download Our Data</h1>
-  <p>Our datasets are available below.</p>
+  <div class="container">
+    <h1>Access Our Data</h1>
 
-  <a
-    href="https://wustl.box.com/shared/static/iup2b0dk4mtbos9nxl1oij9ig5tl5q0e"
-    class="download-button"
-    target="_blank"
-    rel="noopener"
-  >
-    Candidate Codebook
-  </a>
+    <p class="intro">
+      We make our datasets publicly available for research and transparency.
+      Use the links below to download the most current codebooks.
+    </p>
 
-  <br>
+    <div class="download-card">
+      <h2>Candidate Codebook</h2>
+      <p>
+        Variable definitions and documentation for candidate-level data.
+      </p>
+      <a
+        href="https://wustl.box.com/shared/static/iup2b0dk4mtbos9nxl1oij9ig5tl5q0e"
+        class="download-button"
+        target="_blank"
+        rel="noopener"
+      >
+        Download Candidate Codebook
+      </a>
+    </div>
 
-  <a
-    href="https://wustl.box.com/shared/static/idfa8anwl7d9lwck8fslpjstcm93mrkn"
-    class="download-button"
-    target="_blank"
-    rel="noopener"
-  >
-    Parties Codebook
-  </a>
+    <div class="download-card">
+      <h2>Parties Codebook</h2>
+      <p>
+        Documentation for political party variables and classifications.
+      </p>
+      <a
+        href="https://wustl.box.com/shared/static/idfa8anwl7d9lwck8fslpjstcm93mrkn"
+        class="download-button"
+        target="_blank"
+        rel="noopener"
+      >
+        Download Parties Codebook
+      </a>
+    </div>
+
+  </div>
 
 </body>
 </html>
-
 
 
