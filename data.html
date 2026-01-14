@@ -268,139 +268,170 @@
     <div class="container">
 
   <style>
-  .election-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    font-size: 0.95rem;
-    margin-top: 1.5em;
-  }
+    /* Table styling */
+    .election-table {
+      width: 100%;
+      max-width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.95rem;
+      margin-top: 1.5em;
+      table-layout: auto; /* let columns size naturally */
+    }
 
-  .election-table th,
-  .election-table td {
-    padding: 0.8em 1em;
-    text-align: left;
-  }
+    .election-table th,
+    .election-table td {
+      padding: 1em 1.5em; /* more breathing room */
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #e0e0e0;
+    }
 
-  .election-table thead th {
-    background-color: #c0392b; /* banner red */
-    color: #fff;
-    font-weight: 600;
-  }
+    .election-table thead th {
+      background-color: #c0392b; /* banner red */
+      color: #fff;
+      font-weight: 600;
+    }
 
-  .election-table tbody tr:nth-child(even) {
-    background-color: #fdecea; /* light red for alternating rows */
-  }
+    .election-table tbody tr:nth-child(even) {
+      background-color: #fdecea; /* light red for alternating rows */
+    }
 
-  .election-table tbody tr:nth-child(odd) {
-    background-color: #fff;
-  }
+    .election-table tbody tr:nth-child(odd) {
+      background-color: #fff;
+    }
 
-  .election-table td a {
-    color: #006d6f;
-    text-decoration: none;
-    font-weight: 500;
-  }
+    .election-table td a {
+      color: #006d6f; /* teal links */
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-  .election-table td a:hover {
-    text-decoration: underline;
-    color: #004f52;
-  }
+    .election-table td a:hover {
+      text-decoration: underline;
+      color: #004f52;
+    }
 
-  .election-table td {
-    border-bottom: 1px solid #e0e0e0;
-  }
-</style>
+    /* Column width adjustments */
+    .election-table th:nth-child(1),
+    .election-table td:nth-child(1) { width: 20%; } /* Election name */
+    .election-table th:nth-child(2),
+    .election-table td:nth-child(2) { width: 15%; } /* Date */
+    .election-table th:nth-child(3),
+    .election-table td:nth-child(3) { width: 20%; } /* Election Type */
+    .election-table th:nth-child(4),
+    .election-table td:nth-child(4),
+    .election-table th:nth-child(5),
+    .election-table td:nth-child(5),
+    .election-table th:nth-child(6),
+    .election-table td:nth-child(6) { width: 15%; } /* File links */
 
-<h2>Specific Election Files</h2>
-<p class="intro">
-  For each election, you can download the candidate, district, and region files below.
-</p>
+    /* Responsive horizontal scroll */
+    .container {
+      overflow-x: auto;
+    }
 
-<table class="election-table">
-  <thead>
-    <tr>
-      <th>Election</th>
-      <th>Date</th>
-      <th>Election Type</th>
-      <th>Candidates</th>
-      <th>Districts</th>
-      <th>Region</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-  <td>Albania</td>
-  <td>April 25, 2021</td> <!-- Date -->
-  <td>Parliament</td> <!-- Election Type -->
-  <td><a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">Candidates file</a></td>
-  <td><a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">Districts file</a></td>
-  <td>—</td> <!-- Region -->
-</tr>
-</tr>
-  <td>Argentina</td>
-  <td>November 14, 2021</td> <!-- Date -->
-  <td>Chamber of Deputies</td> <!-- Election Type -->
-      <td><a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">Candidates file</a></td>
-      <td><a href="https://wustl.box.com/shared/static/kmn2qn2rxw1d5c5y3zejorpvgo4e9gkx" target="_blank" rel="noopener">Districts file</a></td>
-      <td>—</td>
-  <tr>
+  </style>
 
-<tr>
-  <td>Argentina</td>
-  <td>November 19, 2023</td> <!-- Date -->
-  <td>Presidential/Vice Presidential</td> <!-- Election Type -->
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>—</td>
-    </tr>
-    <tr>
-  <td>Argentina</td>
-  <td>October 22, 2023 and November 19, 2023</td> <!-- Date -->
-  <td>Senate</td> <!-- Election Type -->
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>—</td>
-    </tr>
-    <tr>
-  <td>Argentina</td>
-  <td>October 22, 2023 and November 19, 2023</td> <!-- Date -->
-  <td>Chamber of Deputies</td> <!-- Election Type -->
-      <td>Coming Soon</td>
-      <td>Coming Soon</td>
-      <td>—</td>
-    </tr>
+  <h2>Specific Election Files</h2>
+  <p class="intro">
+    For each election, you can download the candidate, district, and region files below.
+  </p>
 
-    </tr>
-  <td>Armenia</td>
-  <td>June 20, 2021</td> <!-- Date -->
-  <td>National Assembly</td> <!-- Election Type -->
-      <td><a href="https://wustl.box.com/shared/static/ugd8x58zqpij2mu6ewlrv8wjf8v0ywc5" target="_blank" rel="noopener">Candidates file</a></td>
-      <td>—</td>
-      <td>—</td>
-  </tr>
-</tr>
-  <td>Australia</td>
-  <td>May 21, 2022</td> <!-- Date -->
-  <td>House of Representatives</td> <!-- Election Type -->
-      <td><a href="https://wustl.box.com/shared/static/e1ukp0cq0dstmvsq8ntmdjyn6iu1kq3i" target="_blank" rel="noopener">Candidates file</a></td>
-      <td><a href="https://wustl.box.com/shared/static/godv5hcnyqe17ga540k5mo0cjurx3z3k" target="_blank" rel="noopener">Districts file</a></td>
-      <td><a href= "https://wustl.box.com/shared/static/ocgtmfl3lj1xw8i2ajsdhz0iti6q9jsc" target="_blank" rel="noopener">Region file</a></td>
-  <tr>
-    </tr>
-  <td>Australia</td>
-  <td>May 21, 2022</td> <!-- Date -->
-  <td>Senate</td> <!-- Election Type -->
-      <td><a href="https://wustl.box.com/shared/static/ntmusx7eal639q1wwzmdvc2nme8bisxf" target="_blank" rel="noopener">Candidates file</a></td>
-      <td><a href="https://wustl.box.com/shared/static/9mdjiry63g5sm7cr0rx0ruuqx3q4hujx" target="_blank" rel="noopener">Districts file</a></td>
-      <td>—</td>
-  <tr>
+  <table class="election-table">
+    <thead>
       <tr>
+        <th>Election</th>
+        <th>Date</th>
+        <th>Election Type</th>
+        <th>Candidates</th>
+        <th>Districts</th>
+        <th>Region</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Albania</td>
+        <td>April 25, 2021</td>
+        <td>Parliament</td>
+        <td><a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">Candidates file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
 
-      <td>United States 2020</td>
-      <td><a href="https://wustl.box.com/shared/static/cucgm462j75n3ne1g95fzzjnmzuzvbcl" target="_blank" rel="noopener">Candidates file</a></td>
-      <td><a href="https://wustl.box.com/shared/static/9uiuts1bopat2pxdktsibeoac62nkaua" target="_blank" rel="noopener">Districts file</a></td>
-      <td><a href="https://wustl.box.com/shared/static/65ifc1xpwic9eh56hrwi64obm8q4uuhx" target="_blank" rel="noopener">Region file</a></td>
-    </tr>
-  </tbody>
-</table>
+      <tr>
+        <td>Argentina</td>
+        <td>November 14, 2021</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">Candidates file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/kmn2qn2rxw1d5c5y3zejorpvgo4e9gkx" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>November 19, 2023</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>October 22, 2023 and November 19, 2023</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>October 22, 2023 and November 19, 2023</td>
+        <td>Chamber of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Armenia</td>
+        <td>June 20, 2021</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/ugd8x58zqpij2mu6ewlrv8wjf8v0ywc5" target="_blank" rel="noopener">Candidates file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Australia</td>
+        <td>May 21, 2022</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/e1ukp0cq0dstmvsq8ntmdjyn6iu1kq3i" target="_blank" rel="noopener">Candidates file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/godv5hcnyqe17ga540k5mo0cjurx3z3k" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/ocgtmfl3lj1xw8i2ajsdhz0iti6q9jsc" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+
+      <tr>
+        <td>Australia</td>
+        <td>May 21, 2022</td>
+        <td>Senate</td>
+        <td><a href="https://wustl.box.com/shared/static/ntmusx7eal639q1wwzmdvc2nme8bisxf" target="_blank" rel="noopener">Candidates file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9mdjiry63g5sm7cr0rx0ruuqx3q4hujx" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>United States</td>
+        <td>2020</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/cucgm462j75n3ne1g95fzzjnmzuzvbcl" target="_blank" rel="noopener">Candidates file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9uiuts1bopat2pxdktsibeoac62nkaua" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/65ifc1xpwic9eh56hrwi64obm8q4uuhx" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+</div>
