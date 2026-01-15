@@ -1585,49 +1585,103 @@
 </div>
 
     
-  <!-- ==================== Follow Us / Contact ==================== -->
-  <section id="contact" class="wrapper style4 special container">
-    <div class="contact-box">
-      <p class="follow-text">Follow us on social media</p>
-      <ul class="icons">
-        <li><a href="https://www.instagram.com/gps_pol" class="icon brands circle fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-        <li><a href="https://www.linkedin.com/in/global-political-social-media-project/" class="icon brands circle fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-        <li><a href="https://bsky.app/profile/gps-pol.bsky.social" class="icon circle" target="_blank"><span class="label">Bluesky</span> 🦋</a></li>
-        <li><a href="https://twitter.com/gps_pol" class="icon brands circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-      </ul>
+ <!-- ==================== Follow Us / Contact ==================== -->
+<section id="contact" class="wrapper style4 special container contact-section">
+  <div class="contact-box">
+    <h3 class="follow-text">Connect with us</h3>
 
-      <div class="email-contact" style="margin-top:0.5rem;">
-        <p class="follow-text" style="margin-bottom:0rem; font-weight:bold;">Email us</p>
-        <a href="mailto:globalcampaignrhetoric@wustl.edu" 
-           class="icon solid circle fa-envelope" 
-           style="display:inline-flex; align-items:center; justify-content:center; font-size:2rem; width:60px; height:60px; border-radius:50%; text-decoration:none; background-color:#333; color:#fff;">
-          <span class="label" style="display:none;">Email</span>
-        </a>
-      </div>
-  </section>
+    <ul class="icons social-icons">
+      <li>
+        <a href="https://www.instagram.com/gps_pol" class="icon brands fa-instagram" target="_blank" aria-label="Instagram"></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/global-political-social-media-project/" class="icon brands fa-linkedin-in" target="_blank" aria-label="LinkedIn"></a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/gps-pol.bsky.social" class="icon bluesky-icon" target="_blank" aria-label="Bluesky">🦋</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/gps_pol" class="icon brands fa-twitter" target="_blank" aria-label="Twitter"></a>
+      </li>
+    </ul>
 
-<!-- ==================== Footer ==================== -->
-<footer id="footer">
-
-  <div class="funding" style="margin-bottom:0.75rem; padding-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.2);">
-    <p style="font-size:0.85rem; line-height:1.5; margin:0;">
-      <strong>Project Funded By:</strong><br>
-      National Science Foundation (Grant No. 2215008)<br>
-      Carnegie Corporation of New York (Grant No. G-23-60440)
-    </p>
+    <div class="email-contact">
+      <p class="email-label">Email us</p>
+      <a href="mailto:globalcampaignrhetoric@wustl.edu"
+         class="icon solid fa-envelope email-icon"
+         aria-label="Email"></a>
+    </div>
   </div>
+</section>
+    <!-- ==================== Footer ==================== --> <footer id="footer"> <div class="funding" style="margin-bottom:0.75rem; padding-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.2);"> <p style="font-size:0.85rem; line-height:1.5; margin:0;"> <strong>Project Funded By:</strong><br> National Science Foundation (Grant No. 2215008)<br> Carnegie Corporation of New York (Grant No. G-23-60440) </p> </div> <ul class="copyright" style="list-style:none; padding:0; margin:0;"> <li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li> <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li> </ul> </footer> </body> </html>
+/* Contact Section Styling */
+.contact-section {
+  background-color: #ffffff;
+  padding: 3rem 1.5rem;
+}
 
-  <ul class="copyright" style="list-style:none; padding:0; margin:0;">
-    <li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li>
-    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-  </ul>
+.contact-box {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-</footer>
+/* Headings */
+.follow-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #1f2d2b;
+}
 
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
 
-</body>
-</html>
+.social-icons li {
+  list-style: none;
+}
 
+.social-icons a,
+.email-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #1f6f63; /* dark green/teal */
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.social-icons a:hover,
+.email-icon:hover {
+  background-color: #144d45;
+  transform: translateY(-2px);
+}
+
+/* Bluesky icon tweak */
+.bluesky-icon {
+  font-size: 1.4rem;
+}
+
+/* Email section */
+.email-contact {
+  margin-top: 1.5rem;
+}
+
+.email-label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1f2d2b;
+}
 
 
 
