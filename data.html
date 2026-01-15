@@ -1277,75 +1277,77 @@
 
 </div>
     <!-- Start of new table -->
-<div class="wide-table">
-<style>
-/* FULL-WIDTH TABLE WRAPPER */
+    <div class="container wide-table">
+
+  <style>
+    /* Table styling */
+    .election-table {
+      width: 100%;
+      max-width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.95rem;
+      margin-top: 1.5em;
+      table-layout: auto; /* let columns size naturally */
+    }
+
+    .election-table th,
+    .election-table td {
+      padding: 1em 1.5em; /* more breathing room */
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .election-table thead th {
+      background-color: #c0392b; /* banner red */
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .election-table tbody tr:nth-child(even) {
+      background-color: #fdecea; /* light red for alternating rows */
+    }
+
+    .election-table tbody tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    .election-table td a {
+      color: #006d6f; /* teal links */
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .election-table td a:hover {
+      text-decoration: underline;
+      color: #004f52;
+    }
+
+    /* Column width adjustments */
+    .election-table th:nth-child(1),
+    .election-table td:nth-child(1) { width: 20%; } /* Election name */
+    .election-table th:nth-child(2),
+    .election-table td:nth-child(2) { width: 15%; } /* Date */
+    .election-table th:nth-child(3),
+    .election-table td:nth-child(3) { width: 20%; } /* Election Type */
+    .election-table th:nth-child(4),
+    .election-table td:nth-child(4),
+    .election-table th:nth-child(5),
+    .election-table td:nth-child(5),
+    .election-table th:nth-child(6),
+    .election-table td:nth-child(6) { width: 15%; } /* File links */
+
+    /* Make this section wider than the normal container */
 .wide-table {
-  max-width: 2000px;   /* wider than before */
-  width: 98%;
-  margin: 2em auto;
+  max-width: 1400px;   /* adjust if you want even wider */
+  width: 95%;
+  margin: 0 auto;
+  overflow-x: visible; /* NO horizontal scrolling */
 }
 
-/* TABLE */
-.election-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1rem;     /* slightly larger text */
-}
 
-/* HEADERS + CELLS */
-.election-table th,
-.election-table td {
-  padding: 1.1em 1.5em;  /* more breathing room */
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid #e0e0e0;
-  white-space: normal;  /* allow wrapping */
-}
-
-/* HEADER ROW */
-.election-table thead th {
-  background-color: #c0392b;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-/* ROW STRIPING */
-.election-table tbody tr:nth-child(even) {
-  background-color: #fdecea;
-}
-
-/* LINKS */
-.election-table a {
-  color: #006d6f;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.election-table a:hover {
-  text-decoration: underline;
-}
-
-/* COLUMN WIDTHS — optimized for readability */
-.election-table th:nth-child(1),
-.election-table td:nth-child(1) { width: 18%; }
-
-.election-table th:nth-child(2),
-.election-table td:nth-child(2) { width: 22%; }
-
-.election-table th:nth-child(3),
-.election-table td:nth-child(3) { width: 18%; }
-
-.election-table th:nth-child(4),
-.election-table td:nth-child(4),
-.election-table th:nth-child(5),
-.election-table td:nth-child(5),
-.election-table th:nth-child(6),
-.election-table td:nth-child(6) {
-  width: 14%;
-  text-align: center;
-}
-</style>
+  </style>
 
   <h2>European Union Elections</h2>
   <p class="intro">
