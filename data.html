@@ -1275,83 +1275,74 @@
     </tbody>
   </table>
 
-</div>
-    <!-- Start of new table -->
-    <div class="container wide-table">
-
-  <style>
-    /* Table styling */
-    .election-table {
-      width: 100%;
-      max-width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      font-size: 0.95rem;
-      margin-top: 1.5em;
-      table-layout: auto; /* let columns size naturally */
-    }
-
-    .election-table th,
-    .election-table td {
-      padding: 1em 1.5em; /* more breathing room */
-      text-align: left;
-      vertical-align: middle;
-      border-bottom: 1px solid #e0e0e0;
-    }
-
-    .election-table thead th {
-      background-color: #c0392b; /* banner red */
-      color: #fff;
-      font-weight: 600;
-    }
-
-    .election-table tbody tr:nth-child(even) {
-      background-color: #fdecea; /* light red for alternating rows */
-    }
-
-    .election-table tbody tr:nth-child(odd) {
-      background-color: #fff;
-    }
-
-    .election-table td a {
-      color: #006d6f; /* teal links */
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .election-table td a:hover {
-      text-decoration: underline;
-      color: #004f52;
-    }
-
-    /* Column width adjustments */
-    .election-table th:nth-child(1),
-    .election-table td:nth-child(1) { width: 20%; } /* Election name */
-    .election-table th:nth-child(2),
-    .election-table td:nth-child(2) { width: 15%; } /* Date */
-    .election-table th:nth-child(3),
-    .election-table td:nth-child(3) { width: 20%; } /* Election Type */
-    .election-table th:nth-child(4),
-    .election-table td:nth-child(4),
-    .election-table th:nth-child(5),
-    .election-table td:nth-child(5),
-    .election-table th:nth-child(6),
-    .election-table td:nth-child(6) { width: 15%; } /* File links */
-
-    /* Make this section wider than the normal container */
+/* Make the table container wider than normal */
 .wide-table {
-  max-width: 1400px;   /* adjust if you want even wider */
-  width: 95%;
+  max-width: 1600px;   /* wider than before */
+  width: 98%;          /* almost full width */
   margin: 0 auto;
-  overflow-x: visible; /* NO horizontal scrolling */
+  overflow-x: auto;    /* allow horizontal scroll if needed */
 }
 
+/* Table styling */
+.election-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  margin-top: 1.5em;
+  table-layout: fixed; /* allows width percentages to work reliably */
+}
 
-  </style>
+/* Header and cells */
+.election-table th,
+.election-table td {
+  padding: 1em 1.5em;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #e0e0e0;
+  word-wrap: break-word;
+}
 
-  <h2>European Union Elections</h2>
+/* Header background */
+.election-table thead th {
+  background-color: #c0392b;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Row colors */
+.election-table tbody tr:nth-child(even) { background-color: #fdecea; }
+.election-table tbody tr:nth-child(odd) { background-color: #fff; }
+
+/* Links */
+.election-table td a {
+  color: #006d6f;
+  text-decoration: none;
+  font-weight: 500;
+}
+.election-table td a:hover {
+  text-decoration: underline;
+  color: #004f52;
+}
+
+/* Adjust column widths */
+.election-table th:nth-child(1),
+.election-table td:nth-child(1) { width: 20%; }  /* Election */
+.election-table th:nth-child(2),
+.election-table td:nth-child(2) { width: 20%; }  /* Date column wider now */
+.election-table th:nth-child(3),
+.election-table td:nth-child(3) { width: 15%; }  /* Election Type */
+.election-table th:nth-child(4),
+.election-table td:nth-child(4) { width: 15%; }  /* Candidate */
+.election-table th:nth-child(5),
+.election-table td:nth-child(5) { width: 15%; }  /* Districts */
+.election-table th:nth-child(6),
+.election-table td:nth-child(6) { width: 15%; }  /* Region */
+</style>
+
+  <h2>Specific Election Files</h2>
   <p class="intro">
-    Use the table below to access the candidate, district, and region files for each election.
+    For each election, you can download the candidate, districts, and region files below.
   </p>
 
   <table class="election-table">
