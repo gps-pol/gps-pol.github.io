@@ -314,17 +314,17 @@
 
     /* Column width adjustments */
     .election-table th:nth-child(1),
-    .election-table td:nth-child(1) { width: 17%; } /* Election name */
+    .election-table td:nth-child(1) { width: 20%; } /* Election name */
     .election-table th:nth-child(2),
-    .election-table td:nth-child(2) { width: 30%; } /* Date */
+    .election-table td:nth-child(2) { width: 20%; } /* Date */
     .election-table th:nth-child(3),
-    .election-table td:nth-child(3) { width: 18%; } /* Election Type */
+    .election-table td:nth-child(3) { width: 25%; } /* Election Type */
     .election-table th:nth-child(4),
     .election-table td:nth-child(4),
     .election-table th:nth-child(5),
     .election-table td:nth-child(5),
     .election-table th:nth-child(6),
-    .election-table td:nth-child(6) { width: 10%; } /* File links */
+    .election-table td:nth-child(6) { width: 15%; } /* File links */
 
     /* Make this section wider than the normal container */
 .wide-table {
@@ -1130,7 +1130,7 @@
       <tr>
         <td>Serbia</td>
         <td>December 17, 2023</td>
-        <td>Assembly of the Republic</td>
+        <td>National Assembly</td>
         <td>Coming Soon</td>
         <td>—</td>
         <td>—</td>
@@ -1372,87 +1372,94 @@
 </head>
 <body>
 
-<!-- ================= Tab Buttons ================= -->
-<div class="tabs">
-  <button class="tab-button active" onclick="openTab(event, 'eu')">EU Elections</button>
-</div>
+<!-- ================= EU Elections Accordion ================= -->
+<details class="accordion">
+  <summary class="accordion-header">
+    EU Elections
+  </summary>
 
-<!-- ================= Tab Content ================= -->
-<div id="eu" class="tab-content" style="display:block;">
-  <h2>European Union Election 2024</h2>
-  <p class="intro">
-    For each EU election, you can download the candidate, districts, and region files below.
-  </p>
+  <div class="accordion-content">
+    <h2>European Union Election 2024</h2>
+    <p class="intro">
+      For each EU election, you can download the candidate, districts, and region files below.
+    </p>
 
-  <div class="wide-table">
-    <table class="election-table">
-      <thead>
-        <tr>
-          <th>Election</th>
-          <th>Date</th>
-          <th>Election Type</th>
-          <th>Candidate</th>
-          <th>Districts</th>
-          <th>Region</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Austria (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Belgium (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
-        <tr><td>Bulgaria (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Croatia (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Cyprus (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Czechia (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Denmark (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Estonia (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Finland (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>France (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Germany (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Greece (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Hungary (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Ireland (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
-        <tr><td>Italy (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
-        <tr><td>Latvia (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Lithuania (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Luxembourg (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td></tr>
-        <tr><td>Malta (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
-        <tr><td>Netherlands (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Poland (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
-        <tr><td>Portugal (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Romania (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Slovak Republic (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Slovenia (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Spain (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-        <tr><td>Sweden (EU)</td><td>June 6-9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
-      </tbody>
-    </table>
+    <div class="wide-table">
+      <table class="election-table">
+        <thead>
+          <tr>
+            <th>Election</th>
+            <th>Date</th>
+            <th>Election Type</th>
+            <th>Candidate</th>
+            <th>Districts</th>
+            <th>Region</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Austria (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Belgium (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Bulgaria (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Croatia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Cyprus (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Czechia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Denmark (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Estonia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Finland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>France (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Germany (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Greece (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Hungary (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Ireland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Italy (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Latvia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Lithuania (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Luxembourg (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td></tr>
+          <tr><td>Malta (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Netherlands (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Poland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Portugal (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Romania (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Slovak Republic (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Slovenia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Spain (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Sweden (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-</div>
-
-<!-- ================= JS for Tabs ================= -->
-<script>
-function openTab(evt, tabName) {
-  const tabContents = document.getElementsByClassName("tab-content");
-  const tabButtons = document.getElementsByClassName("tab-button");
-
-  // Hide all tab content
-  for (let i = 0; i < tabContents.length; i++) {
-    tabContents[i].style.display = "none";
-  }
-
-  // Remove active class from all buttons
-  for (let i = 0; i < tabButtons.length; i++) {
-    tabButtons[i].classList.remove("active");
-  }
-
-  // Show the clicked tab and add active class
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.classList.add("active");
+</details>
+<style>
+/* Accordion container */
+.accordion {
+  margin: 2em 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
 }
-</script>
 
-</body>
-</html>
+/* Header */
+.accordion-header {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 1em 1.5em;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Remove default arrow */
+.accordion-header::-webkit-details-marker {
+  display: none;
+}
+
+/* Content */
+.accordion-content {
+  padding: 1.5em;
+  background-color: #fafafa;
+}
+</style>
+
 
 
     
