@@ -245,85 +245,29 @@
       target="_blank"
       rel="noopener"
     >
-      <!-- ================== STYLES ================== -->
-<style>
-/* ---------- Neutralize theme “bubble / card” styling ---------- */
-.wide-table {
-  max-width: 1800px;
-  width: 98%;
-  margin: 3rem auto;
-  padding: 0 1rem;
-
-  background: transparent !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-/* ---------- Table base ---------- */
-.election-table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-  background-color: #ffffff;
-}
-
-/* ---------- Table cells ---------- */
-.election-table th,
-.election-table td {
-  padding: 0.9em 1.2em;
-  text-align: left;
-  vertical-align: middle;
-  border-bottom: 1px solid #e0e0e0;
-  word-wrap: break-word;
-}
-
-/* ---------- Header ---------- */
-.election-table thead th {
-  background-color: #c0392b;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-/* ---------- Zebra striping ---------- */
-.election-table tbody tr:nth-child(even) {
-  background-color: #fdecea;
-}
-.election-table tbody tr:nth-child(odd) {
-  background-color: #ffffff;
-}
-
-/* ---------- Links ---------- */
-.election-table td a {
-  color: #006d6f;
-  text-decoration: none;
-  font-weight: 500;
-}
-.election-table td a:hover {
-  text-decoration: underline;
-  color: #004f52;
-}
-
-/* ---------- Column widths ---------- */
-.election-table th:nth-child(1),
-.election-table td:nth-child(1) { width: 18%; }
-
-.election-table th:nth-child(2),
-.election-table td:nth-child(2) { width: 17%; }
-
-.election-table th:nth-child(3),
-.election-table td:nth-child(3) { width: 30%; }
-
-.election-table th:nth-child(4),
-.election-table td:nth-child(4),
-.election-table th:nth-child(5),
-.election-table td:nth-child(5),
-.election-table th:nth-child(6),
-.election-table td:nth-child(6) { width: 11.5%; }
-</style>
-
-<!-- ================== CONTENT ================== -->
-<div class="wide-table">
-
+      <div class="container wide-table"> 
+        <style> 
+          /* Table styling */ 
+          .election-table { width: 100%; max-width: 100%; 
+                           border-collapse: separate; border-spacing: 0; 
+                           font-size: 0.95rem; margin-top: 1.5em; 
+                           table-layout: auto; /* let columns size naturally */ } 
+          .election-table th, .election-table td { padding: 1em 1.5em; /* more breathing room */ text-align: left; vertical-align: middle; border-bottom: 1px solid #e0e0e0; } 
+          .election-table thead th { background-color: #c0392b; /* banner red */ color: #fff; font-weight: 600; } 
+          .election-table tbody tr:nth-child(even) { background-color: #fdecea; /* light red for alternating rows */ } 
+          .election-table tbody tr:nth-child(odd) { background-color: #fff; } 
+          .election-table td a { color: #006d6f; /* teal links */ text-decoration: none; font-weight: 500; } 
+          .election-table td a:hover { text-decoration: underline; color: #004f52; } /* Column width adjustments */ 
+          .election-table th:nth-child(1), .election-table td:nth-child(1) { width: 20%; } /* Election name */ .election-table th:nth-child(2), 
+          .election-table td:nth-child(2) { width: 15%; } /* Date */ 
+          .election-table th:nth-child(3), .election-table td:nth-child(3) { width: 20%; } /* Election Type */ 
+          .election-table th:nth-child(4), .election-table td:nth-child(4), 
+          .election-table th:nth-child(5), .election-table td:nth-child(5), 
+          .election-table th:nth-child(6), .election-table td:nth-child(6) { width: 15%; } /* File links */ /* Make this section wider than the normal container */ 
+          
+          .wide-table { max-width: 1400px; /* adjust if you want even wider */ width: 95%; margin: 0 auto; overflow-x: visible; /* NO horizontal scrolling */ } 
+        
+       
   <h2>Specific Election Files</h2>
   <p class="intro">
     For each election, you can download the candidate, districts, and region files below.
