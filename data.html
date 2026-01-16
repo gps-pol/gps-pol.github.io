@@ -247,34 +247,82 @@
     >
       Download Elections List
     </a>
-  </div>
-    
-      <div class="container wide-table"> 
-        <style> 
-          /* Table styling */ 
-          .election-table { width: 100%; max-width: 100%; 
-                           border-collapse: separate; border-spacing: 0; 
-                           font-size: 0.95rem; margin-top: 1.5em; 
-                           table-layout: auto; /* let columns size naturally */ } 
-          .election-table th, .election-table td { padding: 1em 1.5em; /* more breathing room */ text-align: left; vertical-align: middle; border-bottom: 1px solid #e0e0e0; } 
-          .election-table thead th { background-color: #c0392b; /* banner red */ color: #fff; font-weight: 600; } 
-          .election-table tbody tr:nth-child(even) { background-color: #fdecea; /* light red for alternating rows */ } 
-          .election-table tbody tr:nth-child(odd) { background-color: #fff; } 
-          .election-table td a { color: #006d6f; /* teal links */ text-decoration: none; font-weight: 500; } 
-          .election-table td a:hover { text-decoration: underline; color: #004f52; } /* Column width adjustments */ 
-          .election-table th:nth-child(1), .election-table td:nth-child(1) { width: 20%; } /* Election name */ .election-table th:nth-child(2), 
-          .election-table td:nth-child(2) { width: 15%; } /* Date */ 
-          .election-table th:nth-child(3), .election-table td:nth-child(3) { width: 20%; } /* Election Type */ 
-          .election-table th:nth-child(4), .election-table td:nth-child(4), 
-          .election-table th:nth-child(5), .election-table td:nth-child(5), 
-          .election-table th:nth-child(6), .election-table td:nth-child(6) { width: 15%; } /* File links */ /* Make this section wider than the normal container */ 
-          
-          .wide-table { max-width: 1400px; /* adjust if you want even wider */ width: 95%; margin: 0 auto; overflow-x: visible; /* NO horizontal scrolling */ } 
-        
-       
+  <div class="container wide-table">
+
+  <style>
+    /* ================== Table styling ================== */
+    .election-table {
+      width: 100%;
+      max-width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.95rem;
+      margin-top: 1.5em;
+      table-layout: auto;
+    }
+
+    .election-table th,
+    .election-table td {
+      padding: 1em 1.5em;
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .election-table thead th {
+      background-color: #c0392b; /* banner red */
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .election-table tbody tr:nth-child(even) {
+      background-color: #fdecea;
+    }
+
+    .election-table tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    .election-table td a {
+      color: #006d6f; /* teal links */
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .election-table td a:hover {
+      text-decoration: underline;
+      color: #004f52;
+    }
+
+    /* ================== Column widths ================== */
+    .election-table th:nth-child(1),
+    .election-table td:nth-child(1) { width: 20%; }
+
+    .election-table th:nth-child(2),
+    .election-table td:nth-child(2) { width: 15%; }
+
+    .election-table th:nth-child(3),
+    .election-table td:nth-child(3) { width: 20%; }
+
+    .election-table th:nth-child(4),
+    .election-table td:nth-child(4),
+    .election-table th:nth-child(5),
+    .election-table td:nth-child(5),
+    .election-table th:nth-child(6),
+    .election-table td:nth-child(6) { width: 15%; }
+
+    /* ================== Wide container ================== */
+    .wide-table {
+      max-width: 1400px;
+      width: 95%;
+      margin: 0 auto;
+      overflow-x: visible;
+    }
+  </style>
+
   <h2>Specific Election Files</h2>
   <p class="intro">
-    For each election, you can download the candidate, districts, and region files below.
+    For each election, you can download the candidate, district, and region files below.
   </p>
 
   <table class="election-table">
@@ -289,7 +337,6 @@
       </tr>
     </thead>
 
-  
     <tbody>
       <tr>
         <td>Albania</td>
@@ -314,7 +361,7 @@
         <td>Chamber of Deputies</td>
         <td>
           <a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">
-            Candidates file
+            Candidate file
           </a>
         </td>
         <td>
@@ -336,28 +383,31 @@
 
       <tr>
         <td>Argentina</td>
-        <td>October 22, 2023 and November 19, 2023</td>
+        <td>October 22 &amp; November 19, 2023</td>
         <td>Senate</td>
         <td>Coming Soon</td>
         <td>Coming Soon</td>
         <td>—</td>
       </tr>
 
-
-
       <tr>
         <td>Argentina</td>
-        <td>October 22, 2023 and November 19, 2023</td>
+        <td>October 22 &amp; November 19, 2023</td>
         <td>Chamber of Deputies</td>
         <td>Coming Soon</td>
         <td>Coming Soon</td>
         <td>—</td>
       </tr>
+
       <tr>
         <td>Armenia</td>
         <td>June 20, 2021</td>
         <td>National Assembly</td>
-        <td><a href="https://wustl.box.com/shared/static/ugd8x58zqpij2mu6ewlrv8wjf8v0ywc5" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/ugd8x58zqpij2mu6ewlrv8wjf8v0ywc5" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
         <td>—</td>
         <td>—</td>
       </tr>
@@ -366,11 +416,22 @@
         <td>Australia</td>
         <td>May 21, 2022</td>
         <td>House of Representatives</td>
-        <td><a href="https://wustl.box.com/shared/static/e1ukp0cq0dstmvsq8ntmdjyn6iu1kq3i" target="_blank" rel="noopener">Candidate file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/godv5hcnyqe17ga540k5mo0cjurx3z3k" target="_blank" rel="noopener">Districts file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/ocgtmfl3lj1xw8i2ajsdhz0iti6q9jsc" target="_blank" rel="noopener">Region file</a></td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/e1ukp0cq0dstmvsq8ntmdjyn6iu1kq3i" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/godv5hcnyqe17ga540k5mo0cjurx3z3k" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/ocgtmfl3lj1xw8i2ajsdhz0iti6q9jsc" target="_blank" rel="noopener">
+            Region file
+          </a>
+        </td>
       </tr>
-
       <tr>
         <td>Australia</td>
         <td>May 21, 2022</td>
@@ -1228,8 +1289,12 @@
         <td>—</td>
       </tr>
 
-       </tbody>
+    </tr>
+    </tbody>
   </table>
+
+</div>
+
 
 </div>
 
