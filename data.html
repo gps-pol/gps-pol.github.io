@@ -245,92 +245,83 @@
       target="_blank"
       rel="noopener"
     >
-      Download Elections List
-    </a>
-  </div>
-
-    <div class="download-card">
-    <h2>Political Parties Collected</h2>
-    <p>
-      A complete list of parties included in the dataset, with party names and social media accounts.
-    </p>
-    <a
-      href="https://wustl.box.com/shared/static/1sf4d564zxpcz87vunb65nohaggye4k6"
-      class="download-button"
-      target="_blank"
-      rel="noopener"
-    >
-      Download Political Parties List
-    </a>
-  </div>
-
-
+      <style>
 /* Make this section wider than the normal container */
 .wide-table {
-  max-width: 1700px;   /* noticeably wider */
+  max-width: 1700px;
   width: 98%;
   margin: 0 auto;
-  padding: 0 1rem;     /* small gutter on large screens */
-  overflow-x: visible;
+  padding: 0 1rem;
 }
 
+/* Table base */
+.election-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
 
-    .election-table th,
-    .election-table td {
-      padding: 1em 1.5em; /* more breathing room */
-      text-align: left;
-      vertical-align: middle;
-      border-bottom: 1px solid #e0e0e0;
-    }
+/* Cells */
+.election-table th,
+.election-table td {
+  padding: 1em 1.5em;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #e0e0e0;
+}
 
-    .election-table thead th {
-      background-color: #c0392b; /* banner red */
-      color: #fff;
-      font-weight: 600;
-    }
+/* Header */
+.election-table thead th {
+  background-color: #c0392b;
+  color: #fff;
+  font-weight: 600;
+}
 
-    .election-table tbody tr:nth-child(even) {
-      background-color: #fdecea; /* light red for alternating rows */
-    }
+/* Zebra striping */
+.election-table tbody tr:nth-child(even) {
+  background-color: #fdecea;
+}
+.election-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
 
-    .election-table tbody tr:nth-child(odd) {
-      background-color: #fff;
-    }
+/* Links */
+.election-table td a {
+  color: #006d6f;
+  text-decoration: none;
+  font-weight: 500;
+}
+.election-table td a:hover {
+  text-decoration: underline;
+  color: #004f52;
+}
 
-    .election-table td a {
-      color: #006d6f; /* teal links */
-      text-decoration: none;
-      font-weight: 500;
-    }
+/* Column widths */
+.election-table th:nth-child(1),
+.election-table td:nth-child(1) { width: 20%; }
 
-    .election-table td a:hover {
-      text-decoration: underline;
-      color: #004f52;
-    }
+.election-table th:nth-child(2),
+.election-table td:nth-child(2) { width: 20%; }
 
-    /* Column width adjustments */
-    .election-table th:nth-child(1),
-    .election-table td:nth-child(1) { width: 20%; } /* Election name */
-    .election-table th:nth-child(2),
-    .election-table td:nth-child(2) { width: 20%; } /* Date */
-    .election-table th:nth-child(3),
-    .election-table td:nth-child(3) { width: 25%; } /* Election Type */
-    .election-table th:nth-child(4),
-    .election-table td:nth-child(4),
-    .election-table th:nth-child(5),
-    .election-table td:nth-child(5),
-    .election-table th:nth-child(6),
-    .election-table td:nth-child(6) { width: 15%; } /* File links */
+.election-table th:nth-child(3),
+.election-table td:nth-child(3) { width: 25%; }
+
+.election-table th:nth-child(4),
+.election-table td:nth-child(4),
+.election-table th:nth-child(5),
+.election-table td:nth-child(5),
+.election-table th:nth-child(6),
+.election-table td:nth-child(6) { width: 15%; }
+</style>
 
 
 
-<h2>Specific Election Files</h2>
-<p class="intro">For each election, you can download the candidate, districts, and region files below.</p>
+<div class="wide-table">
 
-<table class="election-table">
-  </style>
-
- 
+  <h2>Specific Election Files</h2>
+  <p class="intro">
+    For each election, you can download the candidate, districts, and region files below.
+  </p>
 
   <table class="election-table">
     <thead>
@@ -343,13 +334,22 @@
         <th>Region</th>
       </tr>
     </thead>
+
     <tbody>
       <tr>
         <td>Albania</td>
         <td>April 25, 2021</td>
         <td>Parliament</td>
-        <td><a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">Candidate file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">Districts file</a></td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
         <td>—</td>
       </tr>
 
@@ -357,14 +357,23 @@
         <td>Argentina</td>
         <td>November 14, 2021</td>
         <td>Chamber of Deputies</td>
-        <td><a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">Candidates file</a></td>
-        <td><a href="https://wustl.box.com/shared/static/kmn2qn2rxw1d5c5y3zejorpvgo4e9gkx" target="_blank" rel="noopener">Districts file</a></td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">
+            Candidates file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/kmn2qn2rxw1d5c5y3zejorpvgo4e9gkx" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
         <td>—</td>
       </tr>
-<tr>
+
+      <tr>
         <td>Argentina</td>
         <td>November 19, 2023</td>
-        <td>Presidential/Vice Presidential</td>
+        <td>Presidential / Vice Presidential</td>
         <td>Coming Soon</td>
         <td>Coming Soon</td>
         <td>—</td>
@@ -378,6 +387,8 @@
         <td>Coming Soon</td>
         <td>—</td>
       </tr>
+
+
 
       <tr>
         <td>Argentina</td>
@@ -1262,8 +1273,10 @@
         <td>—</td>
       </tr>
 
-    </tbody>
+       </tbody>
   </table>
+
+</div>
 
 <!DOCTYPE html>
 <html lang="en">
