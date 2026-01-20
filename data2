@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f7faf9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4em 1.5em;
+      text-align: center;
+    }
+
+    h1 {
+      color: #083d3f;
+      font-size: 2.2rem;
+      margin-bottom: 0.5em;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #4a6b6c;
+      margin-bottom: 2.5em;
+      line-height: 1.6;
+    }
+
+    .download-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2em;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      margin-bottom: 1.5em;
+    }
+
+    .download-card h2 {
+      margin-top: 0;
+      color: #083d3f;
+      font-size: 1.3rem;
+    }
+
+    .download-card p {
+      color: #5f7f80;
+      margin-bottom: 1.5em;
+      font-size: 0.95rem;
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 14px 30px;
+      background-color: #006d6f;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 999px; /* pill-shaped */
+      font-weight: 600;
+      font-size: 15px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .download-button:hover {
+      background-color: #004f52;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body>
+<!-- Banner -->
+<section id="banner" style="background-color:#c0392b; color:#fff; padding:4em 1.5em; text-align:center; border-radius:12px; margin:2em 0;">
+  <div class="inner">
+    <header>
+      <h2 style="font-size:2.2rem; margin:0 0 0.5em; letter-spacing:1px;">GPS-POL</h2>
+    </header>
+
+    <p style="font-size:1.1rem; color:#fceae9; margin-bottom:2em;">
+      Global Political Social Media Project Dataset
+    </p>
+  </div>
+</section>
+
+
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Data Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f7faf9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4em 1.5em;
+      text-align: center;
+    }
+
+    h1 {
+      color: #083d3f;
+      font-size: 2.2rem;
+      margin-bottom: 0.5em;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: #4a6b6c;
+      margin-bottom: 2.5em;
+      line-height: 1.6;
+    }
+
+    .download-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 2em;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      margin-bottom: 1.5em;
+    }
+
+    .download-card h2 {
+      margin-top: 0;
+      color: #083d3f;
+      font-size: 1.3rem;
+    }
+
+    .download-card p {
+      color: #5f7f80;
+      margin-bottom: 1.5em;
+      font-size: 0.95rem;
+    }
+
+    .download-button {
+      display: inline-block;
+      padding: 14px 30px;
+      background-color: #006d6f;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 15px;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .download-button:hover {
+      background-color: #004f52;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Access Our Data</h1>
+
+    <p class="intro">
+  We make our datasets publicly available for research and transparency. If you are interested in more specific information such as post level data, please fill out our 
+  <a href="https://gps-pol.github.io/#request" style="color:#c0392b; font-weight:600; background-color:#fdecea; padding:0.2em 0.5em; border-radius:6px; text-decoration:none;">
+    Request Form
+  </a>.
+      If you are requesting additional post level data, you will be required to sign our Data Sharing Agreement, and we are only allowed to share specific information as regulated by Meta relation to our contract with them.
+</p>
+
+    Cite us: Global Political Social Media Project (Retreived on DATE) https://gps-pol.github.io/data.html
+    <p>
+      
+    <p class="intro" style="font-size:1.1rem; color:#c0392b; font-weight:600; background-color:#fdecea; padding:0.5em 1em; border-radius:8px; display:inline-block;">
+  Use the links below to download the most current documentation.
+</p>
+
+
+    
+  <div class="container">
+
+  <div class="download-card">
+    <h2>Candidate Codebook</h2>
+    <p>
+      Variable definitions and documentation for candidate-level data.
+    </p>
+    <a
+      href="https://wustl.box.com/shared/static/iup2b0dk4mtbos9nxl1oij9ig5tl5q0e"
+      class="download-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Download Candidate Codebook
+    </a>
+  </div>
+
+  <div class="download-card">
+    <h2>Parties Codebook</h2>
+    <p>
+      Documentation for political party variables and classifications.
+    </p>
+    <a
+      href="https://wustl.box.com/shared/static/idfa8anwl7d9lwck8fslpjstcm93mrkn"
+      class="download-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Download Parties Codebook
+    </a>
+  </div>
+
+  <div class="download-card">
+    <h2>Countries Collected</h2>
+    <p>
+      A complete list of countries included in the dataset, with country ISO and 2-digit country code.
+    </p>
+    <a
+      href="https://wustl.box.com/shared/static/v3ypvdyp3j3t68g9b9wma6v9ol6b5cfi"
+      class="download-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Download Countries List
+    </a>
+  </div>
+
+  <div class="download-card">
+    <h2>Elections Collected</h2>
+    <p>
+      A complete list of elections included in the dataset, with country and year coverage.
+    </p>
+    <a
+      href="https://wustl.box.com/shared/static/hj5ov032lluw3a748hb7gure0hqu9r4j"
+      class="download-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Download Elections List
+    </a>
+    </div>
+    
+  <div class="wide-table">
+<table class="election-table">
+
+  </div>
+    
+    /* ================== Table styling ================== */
+    .election-table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+    .election-table th,
+    .election-table td {
+      padding: 1em 1.5em;
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .election-table thead th {
+      background-color: #c0392b; /* banner red */
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .election-table tbody tr:nth-child(even) {
+      background-color: #fdecea;
+    }
+
+    .election-table tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    .election-table td a {
+      color: #006d6f; /* teal links */
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .election-table td a:hover {
+      text-decoration: underline;
+      color: #004f52;
+    }
+
+    /* ================== Column widths ================== */
+   .election-table th:nth-child(3),
+.election-table td:nth-child(3) {
+  min-width: 220px;
+}
+
+.election-table th:nth-child(4),
+.election-table td:nth-child(4),
+.election-table th:nth-child(5),
+.election-table td:nth-child(5) {
+  min-width: 160px;
+}
+
+
+
+    /* ================== Wide container ================== */
+  <h2>Specific Election Files</h2>
+  <p class="intro">
+    For each election, you can download the candidate, district, and region files below.
+  </p>
+
+   <div class="wide-table">
+    <thead>
+      <tr>
+        <th>Election</th>
+        <th>Date</th>
+        <th>Election Type</th>
+        <th>Candidate</th>
+        <th>Districts</th>
+        <th>Region</th>
+      </tr>
+    </thead>
+/* Full-width table section */
+.table-section {
+  width: 100%;
+  padding: 2em 0;
+}
+
+/* Break out of centered layout */
+.wide-table {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow-x: auto;
+}
+
+/* Table fills screen */
+.election-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+/* Prevent ugly wrapping */
+.election-table th,
+.election-table td {
+  white-space: nowrap;
+  padding: 1em 1.5em;
+}
+
+    <tbody>
+      <tr>
+        <td>Albania</td>
+        <td>April 25, 2021</td>
+        <td>Parliament</td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/vgehdcm20ulxir6seudx2vrbzj7i8rci" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/wutocivxazj5mey35yhyi6crxelea75u" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>November 14, 2021</td>
+        <td>Chamber of Deputies</td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/azh4kf50rwh0ynjs5x8p8czkjpso7e0v" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/kmn2qn2rxw1d5c5y3zejorpvgo4e9gkx" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>November 19, 2023</td>
+        <td>Presidential / Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>October 22 &amp; November 19, 2023</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Argentina</td>
+        <td>October 22 &amp; November 19, 2023</td>
+        <td>Chamber of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Armenia</td>
+        <td>June 20, 2021</td>
+        <td>National Assembly</td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/ugd8x58zqpij2mu6ewlrv8wjf8v0ywc5" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+
+      <tr>
+        <td>Australia</td>
+        <td>May 21, 2022</td>
+        <td>House of Representatives</td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/e1ukp0cq0dstmvsq8ntmdjyn6iu1kq3i" target="_blank" rel="noopener">
+            Candidate file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/godv5hcnyqe17ga540k5mo0cjurx3z3k" target="_blank" rel="noopener">
+            Districts file
+          </a>
+        </td>
+        <td>
+          <a href="https://wustl.box.com/shared/static/ocgtmfl3lj1xw8i2ajsdhz0iti6q9jsc" target="_blank" rel="noopener">
+            Region file
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>Australia</td>
+        <td>May 21, 2022</td>
+        <td>Senate</td>
+        <td><a href="https://wustl.box.com/shared/static/ntmusx7eal639q1wwzmdvc2nme8bisxf" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9mdjiry63g5sm7cr0rx0ruuqx3q4hujx" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Bangladesh</td>
+        <td>January 7, 2024</td>
+        <td>Jatiya Sangsad</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Belgium</td>
+        <td>June 9, 2024</td>
+        <td>Chamber of Representatives</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+ <tr>
+        <td>Bolivia</td>
+        <td>October 18, 2020</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/r3m5tgy8lczogyxh7vh3hi6le08owqbf" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Bolivia</td>
+        <td>October 18, 2020</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/8mqbntokzhtgtk2gf7mcu1a7ifkjnm6n" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/2a2tj6ctq50akbctbwjssslpypulecih" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/nrfa5afotjpthuizixomome3ni13o9ib" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Bosnia and Herzegovina</td>
+        <td>October 2, 2022</td>
+        <td>Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/221e6kle62906wm6jjcv1xvjeyq7jd1f" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Bosnia and Herzegovina</td>
+        <td>October 2, 2022</td>
+        <td>Parliamentary Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/pkuoscp6n1ahg3qf7024qtji4gvlvksh" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/jbujdsvb941sxd8946dasir8z0b3pu62" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Brazil</td>
+        <td>October 2, 2022 and October 30, 2022</td>
+        <td>Deputado Federal</td>
+        <td><a href="https://wustl.box.com/shared/static/iwwqjrpuwh9a5po4fub5lq9wdxhz0nn3" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/148cf0d12m9o38iks4gpkme02lyb7ph8" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/dkwhzem7rrwlwyd87o8i0u17srnwq9f3" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Bulgaria</td>
+        <td>April 4, 2021</td>
+        <td>Parliamentary - National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/a9fknpac1r5k9zm48omkm8066vrstxda" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/t6vywynis7eik3kbnewb55j8943ed2qw" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+       <tr>
+        <td>Bulgaria</td>
+        <td>October 2, 2022</td>
+        <td>Parliamentary - National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/xtdn8wig05qkmn4zdcnnwxf0ul0qvjww" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/geocp8v9ers2lzhnsvdy59d2g8soonvs" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+       <tr>
+        <td>Bulgaria</td>
+        <td>June 9, 2024</td>
+        <td>Parliamentary - National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Canada</td>
+        <td>September 20, 2021</td>
+        <td>House of Commons</td>
+        <td><a href="https://wustl.box.com/shared/static/rbn5dlffneqpa5qci8dpiaa6xchha94i" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/dee8i9s9xfgej9jg9swhwsh36xwg6nhn" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/g0x0m2coo2a09cbetuxtr9fpfc7mkgid" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Chile</td>
+        <td>December 19, 2021</td>
+        <td>Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/s72g2gh6twydb8fj2neofrsbzo1ub8n2" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Chile</td>
+        <td>November 21, 2021 and December 19, 2021</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/0y32fzzt102wnn2xtxyu8ad3drr3y9of" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/l4ad5fcy47dyg24e3smla901zybd1zvl" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/xi1i85sgqs15qlsl132thw5c7e02y9cu" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Colombia</td>
+        <td>March 13, 2022</td>
+        <td>Cámara - Congress of the Republic of Colombia</td>
+        <td><a href="https://wustl.box.com/shared/static/gvm53s1nfczhmkkvpu24hytfg57iua3g" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/zylkurmeaotduduplroy0a6bunyvbqms" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Costa Rica</td>
+        <td>April 3, 2022</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/ln9geki4wejh42yt8rckfd6arm34qow7" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Costa Rica</td>
+        <td>February 6, 2022 and April 3, 2022</td>
+        <td>Legislative Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/iw51d3wk15zw6y5ibcxqel8jsl0ot0j7" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/zmwcaud939mhi8z6bn0olw9gyyz9pq8i" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Croatia</td>
+        <td>April 17, 2024</td>
+        <td>Parliament</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Cyprus</td>
+        <td>May 30, 2021</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/5ni8486eewsj8gidna6yb1b8lht3hmw6" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/rqvm46ipqf5lz7kxhv6neq10khstvecj" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+       <tr>
+        <td>Czechia</td>
+        <td>October 8, 2021 - October 9, 2021</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/91e5d8bnsqsdu9l1ggjmutmvnu1spvcd" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/d1585wept6v23tc8ff0fgoym4hf74nbx" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Denmark</td>
+        <td>November 1, 2022</td>
+        <td>Folketing</td>
+        <td><a href="https://wustl.box.com/shared/static/0z4vjg753m6ho3ps3wlch57353pulqd6" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/1o54gk4v6cgw155lq1e369qzw0f4xr8o" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/o0wph2m57py4unt3wkm8rss22m9nfib6" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Dominican Republic</td>
+        <td>May 19, 2024</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Dominican Republic</td>
+        <td>May 19, 2024</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Dominican Republic</td>
+        <td>May 19, 2024</td>
+        <td>Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Dominican Republic</td>
+        <td>May 19, 2024</td>
+        <td>Parlacen deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Ecuador</td>
+        <td>October 15, 2023</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Ecuador</td>
+        <td>August 20, 2023 and October 15, 2023</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+       <tr>
+        <td>El Salvador</td>
+        <td>February 28, 2021</td>
+        <td>Legislative Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/693ddxcjxnga2wa09kkepj1yod21pwav" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/npehx7m8z5njef28qvju6cxdg5tem0ed" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>El Salvador</td>
+        <td>February 4, 2024</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>El Salvador</td>
+        <td>February 4, 2024</td>
+        <td>Legislative Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Estonia</td>
+        <td>March 5, 2023</td>
+        <td>Parliamentary - Riigikogu</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Finland</td>
+        <td>April 2, 2023</td>
+        <td>Parliament</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>France</td>
+        <td>April 10, 2022 and April 24, 2022</td>
+        <td>Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/xciur0isyabx96oibp3o2xhar5bt2d43" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>France</td>
+        <td>June 12, 2022 and June 19, 2022</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/pyuh5nvv4kx3e9108j794pnv2u7ecc34" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/znz5z1uxcuii7h6ostzx7swmgyu9w9nc" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/i09fa5ww4jczi9em3e65slce3hmpgvle" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+       <tr>
+        <td>France</td>
+        <td>June 30, 2024 and July 7, 2024</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+            </tr>
+       <tr>
+        <td>Georgia</td>
+        <td>October 31, 2020 and November 21, 2020</td>
+        <td>Parliament</td>
+        <td><a href="https://wustl.box.com/shared/static/28mdrn5nikonmyl42v0nz9nbql917dqb" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/r1z98so3biq5n7cm629mqj2sw6aubptk" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Germany</td>
+        <td>September 26, 2021</td>
+        <td>Federal (Bundestag)</td>
+        <td><a href="https://wustl.box.com/shared/static/q70wpwns5wthvtf0t4lfznmmm417a5my" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/0b6lyn1igwgmqr0odz84daw14iepoj4q" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/lp6nx92lnhqoh375wtl7bb3qr56uoe3p" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Greece</td>
+        <td>May 21, 2023</td>
+        <td>Hellenic Parliament</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+       <tr>
+        <td>Greece</td>
+        <td>June 25, 2023</td>
+        <td>Hellenic Parliament</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Guatemala</td>
+        <td>August 20, 2023</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Guatemala</td>
+        <td>June 25, 2023 and August 20, 2023</td>
+        <td>Congress of the Republic</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Honduras</td>
+        <td>November 28, 2021</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/ck0cbnnxntvlslxnyuqqhb0ouohpluzi" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Honduras</td>
+        <td>November 28, 2021</td>
+        <td>National Congress</td>
+        <td><a href="https://wustl.box.com/shared/static/t4unkpu50z7d8ie2fv6mlzdfm1tigqx0" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/ftpravsh6zpvujslc75buodo4p24ag05" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Hungary</td>
+        <td>April 3, 2022</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/iv1n99ibj5e8ilk2xksfw18pe6kk7gj3" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/v4i4lgcva2dkzn4t4dzqlykwy60wlwrb" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Iceland</td>
+        <td>September 25, 2021</td>
+        <td>Parliamentary - Althing</td>
+        <td><a href="https://wustl.box.com/shared/static/u1dtbqi9lkh4aic4nzjvl5upw9za38jj" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/hxmkd4n61kj1y5ol6f0gyd22tzt44jft" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>India</td>
+        <td>April 19, 2024 - June 1, 2024</td>
+        <td>Lok Sabha</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Indonesia</td>
+        <td>February 14, 2024</td>
+        <td>House of Representatives (DPR)</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Indonesia</td>
+        <td>February 14, 2024</td>
+        <td>Regional Representative Council (DPD)</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Indonesia</td>
+        <td>February 14, 2024</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+            </tr>
+      <tr>
+        <td>Israel</td>
+        <td>March 23, 2021</td>
+        <td>Legislature - Knesset</td>
+        <td><a href="https://wustl.box.com/shared/static/wmi5j2fi9kdrbos8iq07c2eklr929ix9" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Israel</td>
+        <td>November 1, 2022</td>
+        <td>Legislature - Knesset</td>
+        <td><a href="https://wustl.box.com/shared/static/2w105gz3worc0surlw3rdpe51gk9pyex" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Italy</td>
+        <td>September 25, 2022</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/j9wv1q2aqdsqkrk6o4nxaq7qkzbte2gg" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/mwhysxwvyoepmgt5tsswfsk9tp0swo16" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/tf4hnajzerwsde6aczdil176tpx5ucsn" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Jamaica</td>
+        <td>September 3, 2020</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/k7pcno6wyxt0eccsr8p32hzmnnob4c5x" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/d39dgr8qdy3h6ow7nl9e9m4haq4m93vv" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Japan</td>
+        <td>October 31, 2021</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/t1ec0yqd6vyn9wtuugn5fxmp7u7lr7hr" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/rc308ldjo9ab8mdvvpl95zo0g7u3babb" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/4a7l3b5tduib5g873g2j5t1sckdifdtz" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Latvia</td>
+        <td>October 1, 2022</td>
+        <td>Parliamentary (Saeima)</td>
+        <td><a href="https://wustl.box.com/shared/static/95bpfus27os3ktki2pcms40hc9iets5c" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/pnac8u016qmywbl6dfkdy93x4b1n57sc" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Lesotho</td>
+        <td>October 7, 2022</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/67w6i8t5nkd228i9vj0itleuqoar1s7c" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/ul6futp25er0rttv4uboi8y698hauk8h" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/36ai1em09tte6b0or77qqvrr5pnk70z0" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Luxembourg</td>
+        <td>October 8, 2023</td>
+        <td>Chamber of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Malaysia</td>
+        <td>November 19, 2022</td>
+        <td>Dewan Rakyat</td>
+        <td><a href="https://wustl.box.com/shared/static/pa7fyv99efa2df7q8xa05bay3rabb3n1" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/vpg9xmndupe89vuahimix16fbdctnj3g" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/45l9xirvbblck3vtb6gd6uip4u22ohmn" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Malta</td>
+        <td>March 26, 2022</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/q2ujxv80au4qd4cjqttvfrrpw1a25p80" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/cpzse5muz37e1ukvqkkibhjhhnqgoh36" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Mexico</td>
+        <td>June 6, 2021</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/kg0zm6ca7zpv0qxs0j13mcd4p349v3sh" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/tirg25j4xwecare4ag0abmkn3lxg5hgu" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/qo52m69k1dhem9o4pal0hgkhn2o2u2fh" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>Mexico</td>
+        <td>June 2, 2024</td>
+        <td>Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Mexico</td>
+        <td>June 2, 2024</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Mexico</td>
+        <td>June 2, 2024</td>
+        <td>Chamber of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Montenegro</td>
+        <td>June 11, 2023</td>
+        <td>Parliament</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Netherlands</td>
+        <td>March 17, 2021</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/skk465gn1dk5r9gj2brhn1t15lez9jhm" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Netherlands</td>
+        <td>November 22, 2023</td>
+        <td>House of Representatives</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>New Zealand</td>
+        <td>October 17, 2020</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/f0tdtmx7ro1d0z84r23xfdhhgihdk7gn" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9txv50f58qg2raidsd7mp0bpiki0g5h7" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>New Zealand</td>
+        <td>October 14, 2023</td>
+        <td>House of Representatives</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>North Macedonia</td>
+        <td>May 8, 2024</td>
+        <td>Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>North Macedonia</td>
+        <td>May 8, 2024</td>
+        <td>Assembly of the Republic</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Norway</td>
+        <td>September 13, 2021</td>
+        <td>Parliamentary - Storting</td>
+        <td><a href="https://wustl.box.com/shared/static/5vjs9omgfs4woduouh2ja8v4qzgzkhbr" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/fr7bbnrj706kos3nhjj70ro6xpu8nw8z" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Pakistan</td>
+        <td>February 8, 2024</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Panama</td>
+        <td>May 5, 2024</td>
+        <td>Presidential/Vice Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Panama</td>
+        <td>May 5, 2024</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Paraguay</td>
+        <td>April 30, 2023</td>
+        <td>Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Paraguay</td>
+        <td>April 30, 2023</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Paraguay</td>
+        <td>April 30, 2023</td>
+        <td>Chamber of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+       <tr>
+        <td>Peru</td>
+        <td>April 11, 2021</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/vjbukyelqfwlmlxg1j25a49dw4cxk4g6" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Peru</td>
+        <td>April 11, 2021</td>
+        <td>Parliament</td>
+        <td><a href="https://wustl.box.com/shared/static/eucqhd4fow43wuutmqbqaj618uo8v3nm" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/emfz2fuwb95pfar88dsuv0j9qwuy3yer" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+       <tr>
+        <td>Philippines</td>
+        <td>May 9, 2022</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/x9mrz80ian4s6ek2ghbi62t2thzqd3qp" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Philippines</td>
+        <td>May 9, 2022</td>
+        <td>Senate</td>
+        <td><a href="https://wustl.box.com/shared/static/j06a8uyxdlo14vj1o1im89a2mcgjak4y" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Philippines</td>
+        <td>May 9, 2022</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/h73508wdbt7ieekgxd4my7y4aa9sqx1p" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/ojadti3mhhe9cxpppk63adjlqp6weffj" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Poland</td>
+        <td>October 15, 2023</td>
+        <td>Sejm</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Portugal</td>
+        <td>January 30, 2022</td>
+        <td>Assembly of the Republic</td>
+        <td><a href="https://wustl.box.com/shared/static/im71lduzad700g9f6offhfckwzrnsarz" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/cg8kyhi0g2e0df8dwd77608dt3rhsqde" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Portugal</td>
+        <td>March 10, 2024</td>
+        <td>Assembly of the Republic</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Romania</td>
+        <td>December 6, 2020</td>
+        <td>Chamber of Deputies</td>
+        <td><a href="https://wustl.box.com/shared/static/fl0pqwhwkq4vhzp6zqsbasbwcpqu0kzo" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/fr60b3d6cog0q8o2ya7m3ce35k7csdof" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Senegal</td>
+        <td>July 31, 2022</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/okkmwgcmnyticq202c5a6otmzim8ueqw" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/09mkdgrqfwtdbilahx946uwseq6rmpu5" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Serbia</td>
+        <td>April 3, 2022</td>
+        <td>Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/3tnz3rttqq9n7pfqcpxqzknr7m03xc7e" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Serbia</td>
+        <td>April 3, 2022</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/3cvsyrshse1kce20vlfa3q356fn85gzh" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Serbia</td>
+        <td>December 17, 2023</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Slovak Republic</td>
+        <td>September 30, 2023</td>
+        <td>National Council</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Slovenia</td>
+        <td>April 24, 2022</td>
+        <td>National Assembly</td>
+        <td><a href="https://wustl.box.com/shared/static/4m13e8n37sypqwq1ej7ctf6dxv5wn6m0" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/jralfr85z0xuep6ml7r1p2os4rygovbs" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/3nzjwlsmfmxh617b51173fyqn86ca655" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>South Africa</td>
+        <td>May 29, 2024</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>South Korea</td>
+        <td>April 10, 2024</td>
+        <td>National Assembly</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Spain</td>
+        <td>July 23, 2023</td>
+        <td>Congress of Deputies</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Spain</td>
+        <td>July 23, 2023</td>
+        <td>Senate</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Sweden</td>
+        <td>September 11, 2022</td>
+        <td>Riksdag</td>
+        <td><a href="https://wustl.box.com/shared/static/u11jad1t2ge1wpl6j3p4qcjtd5ecz5p2" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/3633fkb1bdyof99yq9huyv390uv8pnwm" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Switzerland</td>
+        <td>October 22, 2023</td>
+        <td>National Council</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Switzerland</td>
+        <td>October 22, 2023</td>
+        <td>Council of States</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Taiwan</td>
+        <td>January 13, 2024</td>
+        <td>Presidential</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Taiwan</td>
+        <td>January 13, 2024</td>
+        <td>Legislative Yuan</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>United Kingdom</td>
+        <td>July 4, 2024</td>
+        <td>House of Commons</td>
+        <td>Coming Soon</td>
+        <td>Coming Soon</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>November 3, 2020</td>
+        <td>Presidential/Vice Presidential</td>
+        <td><a href="https://wustl.box.com/shared/static/45muntjdhmc0febvvkvp3c91rck19a7h" target="_blank" rel="noopener">Candidate file</a></td>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>November 3, 2020</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/cucgm462j75n3ne1g95fzzjnmzuzvbcl" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9uiuts1bopat2pxdktsibeoac62nkaua" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/65ifc1xpwic9eh56hrwi64obm8q4uuhx" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>November 3, 2020</td>
+        <td>Senate</td>
+        <td><a href="https://wustl.box.com/shared/static/2yg88nyp20s7rtm5m5g9ie6u8asgtffw" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/io3pr1m3bmtv7l1fqkz4d4jmn568wno3" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>November 8, 2022</td>
+        <td>House of Representatives</td>
+        <td><a href="https://wustl.box.com/shared/static/b4m8ls8xbo3rxv8mnlf077d3fr1y970h" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/2pr6wpl32xq51aoruetr5jlz6zqrxivu" target="_blank" rel="noopener">Districts file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/9128zn8hrj7fwtpf1sygpo1u2t5vph94" target="_blank" rel="noopener">Region file</a></td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>November 8, 2022</td>
+        <td>Senate</td>
+        <td><a href="https://wustl.box.com/shared/static/oieay07sdiftz5aanwxx2zsh1q7px3y4" target="_blank" rel="noopener">Candidate file</a></td>
+        <td><a href="https://wustl.box.com/shared/static/pmgspnfkp87yjdrte1v72ak35x02meeq" target="_blank" rel="noopener">Districts file</a></td>
+        <td>—</td>
+      </tr>
+
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EU Elections 2024</title>
+<style>
+/* ================= Tab Styling ================= */
+.tabs {
+  margin-bottom: 1em;
+}
+.tab-button {
+  background-color: #eee;
+  border: none;
+  padding: 0.7em 1.5em;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 0.5em;
+  border-radius: 5px;
+}
+.tab-button.active {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* Tab content */
+.tab-content {
+  display: none;
+}
+
+/* ================= Table Styling ================= */
+/* Make the table container wider than normal */
+.wide-table {
+  max-width: 1600px;
+  width: 98%;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+/* Table styling */
+.election-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  margin-top: 1.5em;
+  table-layout: fixed; /* allows width percentages to work reliably */
+}
+
+/* Header and cells */
+.election-table th,
+.election-table td {
+  padding: 1em 1.5em;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #e0e0e0;
+  word-wrap: break-word;
+}
+
+/* Header background */
+.election-table thead th {
+  background-color: #c0392b;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Row colors */
+.election-table tbody tr:nth-child(even) { background-color: #fdecea; }
+.election-table tbody tr:nth-child(odd) { background-color: #fff; }
+
+/* Links */
+.election-table td a {
+  color: #006d6f;
+  text-decoration: none;
+  font-weight: 500;
+}
+.election-table td a:hover {
+  text-decoration: underline;
+  color: #004f52;
+}
+
+/* Adjust column widths */
+.election-table th:nth-child(1),
+.election-table td:nth-child(1) { width: 18%; }  /* Election */
+.election-table th:nth-child(2),
+.election-table td:nth-child(2) { width: 30%; }  /* Date column wider now */
+.election-table th:nth-child(3),
+.election-table td:nth-child(3) { width: 12%; }  /* Election Type */
+.election-table th:nth-child(4),
+.election-table td:nth-child(4) { width: 12%; }  /* Candidate */
+.election-table th:nth-child(5),
+.election-table td:nth-child(5) { width: 12%; }  /* Districts */
+.election-table th:nth-child(6),
+.election-table td:nth-child(6) { width: 12%; }  /* Region */
+</style>
+</head>
+<body>
+
+<!-- ================= EU Elections Accordion ================= -->
+<details class="accordion">
+  <summary class="accordion-header">
+    EU Elections
+  </summary>
+
+  <div class="accordion-content">
+    <h2>European Union Election 2024</h2>
+    <p class="intro">
+      For each EU election, you can download the candidate, districts, and region files below.
+    </p>
+
+    <div class="wide-table">
+      <table class="election-table">
+        <thead>
+          <tr>
+            <th>Election</th>
+            <th>Date</th>
+            <th>Election Type</th>
+            <th>Candidate</th>
+            <th>Districts</th>
+            <th>Region</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Austria (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Belgium (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Bulgaria (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Croatia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Cyprus (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Czechia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Denmark (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Estonia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Finland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>France (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Germany (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Greece (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Hungary (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Ireland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Italy (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Latvia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Lithuania (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Luxembourg (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td></tr>
+          <tr><td>Malta (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Netherlands (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Poland (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>Coming Soon</td><td>—</td></tr>
+          <tr><td>Portugal (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Romania (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Slovak Republic (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Slovenia (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Spain (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+          <tr><td>Sweden (EU)</td><td>June 6–9, 2024</td><td>EU Parliament</td><td>Coming Soon</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</details>
+<style>
+/* Accordion container */
+.accordion {
+  margin: 2em 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Header */
+.accordion-header {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 1em 1.5em;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Remove default arrow */
+.accordion-header::-webkit-details-marker {
+  display: none;
+}
+
+/* Content */
+.accordion-content {
+  padding: 1.5em;
+  background-color: #fafafa;
+}
+</style>
+
+
+
+    
+
+    <!-- ==================== Footer ==================== --> 
+    <footer id="footer"> 
+      <div class="funding" 
+        style="margin-bottom:0.75rem; padding-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.2);"> 
+        <p style="font-size:0.85rem; line-height:1.5; margin:0;"> 
+          <strong>Project Funded By:</strong><br> National Science Foundation (Grant No. 2215008)<br> Carnegie Corporation of New York (Grant No. G-23-60440) 
+        </p> 
+      </div> 
+      <ul class="copyright" style="list-style:none; padding:0; margin:0;"> 
+        <li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li> 
+      </ul>
+    </footer> 
+  </body>
+  </html>
+    
+
+
+

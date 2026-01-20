@@ -1,99 +1,191 @@
-		<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <!--
-	GPS-POL
-	globalcampaignrhetoric@wustl.edu
+  GPS-POL
+  globalcampaignrhetoric@wustl.edu
 -->
-<html>
-	<head>
-		<title>Global Political Social Media Project</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="index is-preload">
-		<div id="page-wrapper">
+<html lang="en">
+  <head>
 
-			<!-- Header -->
-				<header id="header" class="alt">
-  <h1 id="logo">
-    <a href="index.html">Global Political Social Media Project</a>
-  </h1>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWG83K8ZGJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<nav id="nav">
-  <ul>
-    <li><a href="#about">About Us</a></li>
-    <li><a href="#dataset">Dataset</a></li>
-    <li><a href="#request" class="button primary">Request Form</a></li>
-  </ul>
-</nav>
-  
-</header>
+    gtag('config', 'G-LWG83K8ZGJ');
+  </script>
 
-			<!-- Banner -->
-				<section id="banner">
+  <!-- the rest of your head content -->
+</head>
 
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
+    <title>Global Political Social Media Project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-						<header>
-							<h2>GPS-POL</h2>
-						</header>
-						<p>Global Political Social Media Project
-						<br />
-						<footer>
-							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">More Information</a></li>
-							</ul>
-						</footer>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 
-					</div>
+    <!-- Banner black box & spacing tweaks -->
+    <style>
+      /* Banner box styling */
+      #banner .inner {
+        background: rgba(0, 0, 0, 0.85);
+        color: #ffffff;
+        padding: 3em 2.5em;
+        border-radius: 8px;
+        text-align: center;
+      }
 
-				</section>
+      #banner .inner h2,
+      #banner .inner p {
+        color: #ffffff;
+      }
 
-			<!-- Main -->
-				<article id="main">
+      #banner .inner .button {
+        background-color: #ffffff;
+        color: #000000 !important;
+        border: none;
+      }
 
-					<header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
-						<h2>World's Largest Archive of Political Social Media Data Ever Created
-						<br />
-						<p>Containing 40+ Million Facebook Posts, 145,000+ candidates, 2,900+ parties, and 90 countries
-						<br />
-						<p> Washington University in St. Louis
-						<br />
-					</header>
+      #banner .inner .button:hover {
+        background-color: #e6e6e6;
+        color: #000000 !important;
+      }
 
-<section id="dataset" class="wrapper style3">
-  <div class="container">
-    <header class="major">
-      <h2>About the Dataset</h2>
-    </header>
+      /* Reduce vertical spacing */
+      #banner {
+        padding-bottom: 2em;
+      }
 
-    <p>
-      The GPS-POL dataset is the world’s largest archive of political social media content,
-      covering candidates, parties, and party alliances across multiple platforms and countries.
-    </p>
+      #main {
+        margin-top: 0;
+        padding-top: 2em;
+      }
 
-    <ul>
-      <li>Millions of posts from political candidates worldwide</li>
-      <li>Multiple election cycles and political systems</li>
-      <li>Standardized party and candidate identifiers</li>
-      <li>Metadata suitable for large-scale computational analysis</li>
-    </ul>
-   </p>
-      Countries include: Albania, Argentina, Armenia, Australia, Austria, Bangladesh, Belgium, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Georgia, Germany, Ghana, Greece, Guatemala, Honduras, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Kosovo, Kyrgyzstan, Latvia, Lebanon, Lesotho, Lithuania, Luxembourg, Malaysia, Malta, Mauritius, Mexico, Moldova, Mongolia, Montenegro, Myanmar, Namibia, Nepal, Netherlands, New Zealand, Nicaragua, North Macedonia, Norway, Pakistan, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Romania, Senegal, Serbia, Slovak Republic, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Taiwan, Timor-Leste, Trinidad and Tobago, Tunisia, Ukraine, United Kingdom, United States, & Uruguay.
-    <p>
-		    </ul>
+      #main > header.special {
+        padding-top: 2em;
+        margin-top: 0;
+      }
 
-      Access to the dataset is provided for academic research purposes under a data sharing
+      .wrapper {
+        padding-top: 3em;
+        padding-bottom: 3em;
+      }
+    </style>
+  </head>
+
+  <!-- IMPORTANT: "landing" makes banner visible -->
+  <body class="landing is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1 id="logo">
+          <a href="index.html">Global Political Social Media Project</a>
+        </h1>
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#dataset">Dataset</a></li>
+            <li>
+              <a href="#request" class="button primary">Request Form</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <header>
+            <h2>GPS-POL</h2>
+          </header>
+
+          <p>Global Political Social Media Project</p>
+
+          <ul class="buttons stacked">
+            <li>
+              <a href="#main" class="button fit scrolly">
+                More Information
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Main content -->
+      <article id="main">
+        <header class="special container">
+          <span class="icon solid fa-chart-bar"></span>
+			          <p>
+
+          <h2>
+            World's Largest Archive of Political Social Media Data Ever Created
+          </h2>
+          <p>
+            Containing 40+ Million Facebook Posts, 145,000+ candidates, 2,900+ parties, and 90 countries
+          </p>
+          <p>Washington University in St. Louis</p>
+        </header>
+
+        <!-- Dataset section -->
+        <section id="dataset" class="wrapper style3">
+          <div class="container">
+            <header class="major">
+              <h2>About the Dataset</h2>
+            </header>
+
+            <p>
+              The GPS-POL dataset is the world’s largest archive of political social media content,
+              covering candidates, parties, and party alliances across multiple platforms and countries.
+            </p>
+
+            <ul>
+              <li>Millions of posts from political candidates worldwide</li>
+              <li>Multiple election cycles and political systems</li>
+              <li>Standardized party and candidate identifiers</li>
+              <li>Metadata suitable for large-scale computational analysis</li>
+            </ul>
+
+            <p>
+              Countries include: Albania, Argentina, Armenia, Australia, Austria, Bangladesh, Belgium, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Bulgaria, Canada, Chile, Colombia, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, El Salvador, Estonia, Finland, France, Georgia, Germany, Ghana, Greece, Guatemala, Honduras, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Kosovo, Kyrgyzstan, Latvia, Lebanon, Lesotho, Lithuania, Luxembourg, Malaysia, Malta, Mauritius, Mexico, Moldova, Mongolia, Montenegro, Myanmar, Namibia, Nepal, Netherlands, New Zealand, Nicaragua, North Macedonia, Norway, Pakistan, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Romania, Senegal, Serbia, Slovak Republic, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Taiwan, Timor-Leste, Trinidad and Tobago, Tunisia, Ukraine, United Kingdom, United States, & Uruguay.
+			
+			</p>
+			              </ul>
+
+				Access to the dataset is provided for academic research purposes under a data sharing
       agreement.
-     </p>
+			            </div>
+
+			<!-- ==================== Download Candidate Data ==================== -->
+<div style="text-align: center; margin-top: 2em;">
+  <a href="data.html" class="button primary">
+    Download our data
+  </a>
+</div>
+
+
+
+    </div> <!-- end page-wrapper -->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
+
+
+
 
 	  
   </div>
@@ -103,6 +195,7 @@
   <div class="container">
     <header class="major">
       <h2>About Us</h2>
+		
     </header>
 
     <p>
@@ -111,137 +204,183 @@
       and collaborates with researchers worldwide.
     </p>
 
-    <!-- Team Grid -->
-    <div class="row gtr-50">
-
-      <!-- Team member -->
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/jacob-montgomery.jpg" alt="Dr. Jacob Montgomery">
-        </span>
-        <h3>Dr. Jacob Montgomery</h3>
-        <p class="team-title">
-          Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/margit-tavits.jpg" alt="Dr. Margit Tavits">
-        </span>
-        <h3>Dr. Margit Tavits</h3>
-        <p class="team-title">
-          Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/christopher-lucas.jpg" alt="Dr. Christopher Lucas">
-        </span>
-        <h3>Dr. Christopher Lucas</h3>
-        <p class="team-title">
-          Associate Professor of Political Science<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/taishi-muraoka.jpg" alt="Dr. Taishi Muraoka">
-        </span>
-        <h3>Dr. Taishi Muraoka</h3>
-        <p class="team-title">
-          Assistant Research Fellow/Professor<br>
-          Institute of Political Science at Academia Sinica
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/dahjin-kim.jpg" alt="Dr. Dahjin Kim">
-        </span>
-        <h3>Dr. Dahjin Kim</h3>
-        <p class="team-title">
-          Assistant Professor of Asian Studies and Global Affairs<br>
-          University of Notre Dame
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit zoom-out">
-  <img src="images/jamie-hicks.jpg" alt="Jamie Hicks">
-</span>
-        <h3>Jamie Hicks</h3>
-        <p class="team-title">
-          Project Coordinator II<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/cecilia-sui.jpg" alt="Cecilia Yuan Sui">
-        </span>
-        <h3>Cecilia Yuan Sui</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/soyeon-jeon.jpg" alt="Soyeon Jeon">
-        </span>
-        <h3>Soyeon Jeon</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/raduan-meira.jpg" alt="Raduan van Velthem Meira">
-        </span>
-        <h3>Raduan van Velthem Meira</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/hongyu-yu.jpg" alt="Hongyu Yu">
-        </span>
-        <h3>Hongyu Yu</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-      <div class="col-4 col-6-medium col-12-small">
-        <span class="image fit">
-          <img src="images/tianlang-zhao.jpg" alt="Tianlang Leona Zhao">
-        </span>
-        <h3>Tianlang Leona Zhao</h3>
-        <p class="team-title">
-          Graduate Student<br>
-          Washington University in St. Louis
-        </p>
-      </div>
-
-    </div>
-.image.fit img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+<!-- Team Grid -->
+<style>
+/* Team Grid Styles */
+.row.gtr-50 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* spacing between team members */
+  justify-content: flex-start; /* align left */
 }
+
+.col-4 {
+  flex: 0 0 calc(33.333% - 2rem); /* 3 per row with gap */
+  box-sizing: border-box;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Small square images (~2in x 2in) */
+.team-photo {
+  width: 190px;  /* roughly 2 inches */
+  height: 190px;
+  margin: 0 auto 1rem auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive: 2 per row on medium, full width on small screens */
+@media (max-width: 992px) {
+  .col-4 {
+    flex: 0 0 calc(50% - 2rem); /* 2 per row */
+  }
+}
+
+@media (max-width: 600px) {
+  .col-4 {
+    flex: 0 0 100%; /* 1 per row */
+  }
+}
+</style>
+
+<div class="row gtr-50">
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/jacob-montgomery.jpg" alt="Dr. Jacob Montgomery">
+    </div>
+    <h3>Dr. Jacob Montgomery</h3>
+    <p class="team-title">
+      Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/margit-tavits.jpg" alt="Dr. Margit Tavits">
+    </div>
+    <h3>Dr. Margit Tavits</h3>
+    <p class="team-title">
+      Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/christopher-lucas.jpg" alt="Dr. Christopher Lucas">
+    </div>
+    <h3>Dr. Christopher Lucas</h3>
+    <p class="team-title">
+      Associate Professor of Political Science<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/taishi-muraoka.jpg" alt="Dr. Taishi Muraoka">
+    </div>
+    <h3>Dr. Taishi Muraoka</h3>
+    <p class="team-title">
+      Assistant Research Fellow / Professor<br>
+      Institute of Political Science at Academia Sinica
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/dahjin-kim.jpg" alt="Dr. Dahjin Kim">
+    </div>
+    <h3>Dr. Dahjin Kim</h3>
+    <p class="team-title">
+      Assistant Professor of Asian Studies and Global Affairs<br>
+      University of Notre Dame
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/jamie-hicks.jpg" alt="Jamie Hicks">
+    </div>
+    <h3>Jamie Hicks</h3>
+    <p class="team-title">
+      Project Coordinator II<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/cecilia-sui.jpg" alt="Cecilia Yuan Sui">
+    </div>
+    <h3>Cecilia Yuan Sui</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/soyeon-jeon.jpg" alt="Soyeon Jeon">
+    </div>
+    <h3>Soyeon Jeon</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/raduan-meira.jpg" alt="Raduan van Velthem Meira">
+    </div>
+    <h3>Raduan van Velthem Meira</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/hongyu-yu.jpg" alt="Hongyu Yu">
+    </div>
+    <h3>Hongyu Yu</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+  <div class="col-4 team-member">
+    <div class="team-photo">
+      <img src="images/tianlang-zhao.jpg" alt="Tianlang Leona Zhao">
+    </div>
+    <h3>Tianlang Leona Zhao</h3>
+    <p class="team-title">
+      Graduate Student<br>
+      Washington University in St. Louis
+    </p>
+  </div>
+
+</div>
+
+
+
     <!-- Acknowledgments -->
     <div class="acknowledgment">
       <p><strong>Acknowledgments:</strong> Jose Santiesteban, Patrick Edwards, Andrew Stausberg, Rex Deng, Joleena Mundy, Meghana Kotcherlakota, Leo Huang, Michael Qian, Vince Fetsch, John Li, Sarah Ambrose, Will Gunter, Aratrika Ghosh, Rachel Gwon, Tyler Quigley, Diana Cardenas-Jara, Riya Pant, Riley Herron, Liv Yazigi, Lupita (Maria) Chavez, Mingheng Ying, Lexia Zhao, Zubin Rekhi, Natalia Leon-Diaz, Siham Ibrahim Théodore, David Bix, Aiden Njanja Fassu, Griffin Crosby Lovato, Sam Horwitz, Annie Yang & Sam Scherkenbach</p>
@@ -251,182 +390,392 @@
 </section>
 
 									
-					<!-- One -->
-						<section class="wrapper style3 container special">
+					<section class="wrapper style3 container special">
 
-							<header class="major">
-								<h2>Published Articles
-							</header>
-
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<section>
- 								 <a href="https://www.cambridge.org/core/journals/international-organization/article/women-and-men-politicians-response-to-war-evidence-from-ukraine/87368FF3F3786E8440EEFB0DA872A16B"
-   								  class="image featured"
-							     target="_blank"
-							     rel="noopener noreferrer">
-							    <img src="images/pic01.jpg" alt="Women and Men Politicians’ Response to War: Evidence from Ukraine" />
- 										 </a>
- 								 <header>
-    									<h3>Women and Men Politicians’ Response to War: Evidence from Ukraine</h3>
- 								 </header>
-										<p>Does war deepen gender inequalities in politicians’ behavior or help erase them? We draw from the terror management theory developed in psychology to argue that the onset of a violent conflict is likely to push politicians to conform more strongly with traditional gender stereotypes because it helps individuals cope with existential fears. To test our argument, we use data on Ukrainian politicians’ engagement on social media (136,455 Facebook posts by 469 politicians) in the three months before and after the 2022 Russian invasion of Ukraine, and interrupted time series analysis, to assess the effect of conflict on politicians’ behavior. We find that conflict onset deepens gender-stereotypical behavior among politicians in their public engagement. We also show that, consistent with our argument, gender biases among the public are magnified during war.</p>
-									</section>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<section>
- 											 <a href="https://ajps.org/2025/04/23/speaking-their-language-multilingualism-in-party-communication-across-democracies/"
-   										  class="image featured"
-    										 target="_blank"
- 										    rel="noopener noreferrer">
-								    <img src="images/pic02.jpg" alt="Speaking their language? Multilingualism in party communication across democracies" />
-									  </a>
- 								 <header>
-											<h3>Speaking their language?: Multilingualism in party communication across democracies</h3>
-										</header>
-										<p>Our study examines how political parties navigate linguistic diversity in modern democracies. Naturally, multilingual political communication only emerges in settings where multiple languages are spoken. However, we find that even in multilingual societies, parties don’t always communicate in the languages of all their constituents. This selective approach to language use has important implications for democratic discourse and outcomes, as language barriers can limit political participation and representation. Our research seeks to understand this variation in linguistic representation at the party level.</p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-6 col-12-narrower">
-
-									<section>
- 									 <a href="https://resolve.cambridge.org/core/journals/political-science-research-and-methods/article/polarization-but-not-populism-strengthens-the-association-between-presidential-election-results-and-emotions/022A1257CF93E2B9E4490232349B389E"
-   									  class="image featured"
-   									  target="_blank"
-									     rel="noopener noreferrer">
-									    <img src="images/pic03.jpg" alt="Polarization but not populism strengthens the association between presidential election results and emotions" />
- 												 </a>
- 										 <header>
-											<h3>Polarization but not populism strengthens the association between presidential election results and emotions</h3>
-										</header>
-										<p>We investigate whether election results are associated with emotional reactions among voters across democracies and under what conditions these responses are more intense. Building on recent work in comparative politics, we theorize that emotional intensity is stronger after elections involving populist candidates and highly polarized parties. We test these expectations with a big-data analysis of emotional reactions on parties’ Facebook posts during 29 presidential elections in 26 democracies. The results show that ideological polarization of political parties might intensify emotional reactions, but there is no clear relationship with the presence of populist candidates.</p>
-									</section>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-						</section>
-
-				</article>
-
-
-
-
-									<section id="request" class="wrapper style4 special container medium">
-  <header>
-    <h2>Request Dataset Access</h2>
-    <p>Please complete the form below to request access to the GPS-POL dataset.</p>
+  <!-- Published Articles -->
+  <header class="major">
+    <h2>Published Articles</h2>
   </header>
 
-  <form>
-    <div class="row gtr-50">
-      <div class="col-6 col-12-mobile">
-        <input type="text" name="name" placeholder="Full Name" required />
-      </div>
-
-      <div class="col-6 col-12-mobile">
-        <input type="email" name="email" placeholder="Email Address" required />
-      </div>
-
-      <div class="col-12">
-        <input type="text" name="institution" placeholder="Institution / Affiliation" required />
-      </div>
-
-      <div class="col-12">
-        <textarea name="request" placeholder="Brief description of requested data and intended use"
-                  rows="6" required></textarea>
-      </div>
-
-      <div class="col-12">
-        <ul class="buttons">
-          <li><input type="submit" value="Submit Request" class="special" /></li>
-        </ul>
-      </div>
+  <div class="row">
+    <div class="col-6 col-12-narrower">
+      <section>
+        <a href="https://www.cambridge.org/core/journals/international-organization/article/women-and-men-politicians-response-to-war-evidence-from-ukraine/87368FF3F3786E8440EEFB0DA872A16B"
+           class="image featured"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="images/pic01.jpg" alt="Women and Men Politicians’ Response to War: Evidence from Ukraine" />
+        </a>
+        <header>
+          <h3>Women and Men Politicians’ Response to War: Evidence from Ukraine</h3>
+        </header>
+        <p>
+          Does war deepen gender inequalities in politicians’ behavior or help erase them? We draw from the terror management theory developed in psychology to argue that the onset of a violent conflict is likely to push politicians to conform more strongly with traditional gender stereotypes because it helps individuals cope with existential fears. To test our argument, we use data on Ukrainian politicians’ engagement on social media (136,455 Facebook posts by 469 politicians) in the three months before and after the 2022 Russian invasion of Ukraine, and interrupted time series analysis, to assess the effect of conflict on politicians’ behavior. We find that conflict onset deepens gender-stereotypical behavior among politicians in their public engagement. We also show that, consistent with our argument, gender biases among the public are magnified during war.
+        </p>
+      </section>
     </div>
-<form action="mailto:globalcampaignrhetoric@wustl.edu"
-      method="post"
-      enctype="text/plain"></section>
-									
-			<!-- Footer -->
-				<footer id="footer">
 
-					<ul class="icons">
+    <div class="col-6 col-12-narrower">
+      <section>
+        <a href="https://ajps.org/2025/04/23/speaking-their-language-multilingualism-in-party-communication-across-democracies/"
+           class="image featured"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="images/pic02.jpg" alt="Speaking their language? Multilingualism in party communication across democracies" />
+        </a>
+        <header>
+          <h3>Speaking their language?: Multilingualism in party communication across democracies</h3>
+        </header>
+        <p>
+          Our study examines how political parties navigate linguistic diversity in modern democracies. Naturally, multilingual political communication only emerges in settings where multiple languages are spoken. However, we find that even in multilingual societies, parties don’t always communicate in the languages of all their constituents. This selective approach to language use has important implications for democratic discourse and outcomes, as language barriers can limit political participation and representation. Our research seeks to understand this variation in linguistic representation at the party level.
+        </p>
+      </section>
+    </div>
+  </div>
 
-<p class="follow-text">Follow us on social media</p>
+  <div class="row">
+    <div class="col-6 col-12-narrower">
+      <section>
+        <a href="https://resolve.cambridge.org/core/journals/political-science-research-and-methods/article/polarization-but-not-populism-strengthens-the-association-between-presidential-election-results-and-emotions/022A1257CF93E2B9E4490232349B389E"
+           class="image featured"
+           target="_blank"
+           rel="noopener noreferrer">
+          <img src="images/pic03.jpg" alt="Polarization but not populism strengthens the association between presidential election results and emotions" />
+        </a>
+        <header>
+          <h3>Polarization but not populism strengthens the association between presidential election results and emotions</h3>
+        </header>
+        <p>
+          We investigate whether election results are associated with emotional reactions among voters across democracies and under what conditions these responses are more intense. Building on recent work in comparative politics, we theorize that emotional intensity is stronger after elections involving populist candidates and highly polarized parties. We test these expectations with a big-data analysis of emotional reactions on parties’ Facebook posts during 29 presidential elections in 26 democracies. The results show that ideological polarization of political parties might intensify emotional reactions, but there is no clear relationship with the presence of populist candidates.
+        </p>
+      </section>
+    </div>
+  </div>
 
-  <!-- Instagram -->
-  <li>
-    <a href="https://www.instagram.com/gps_pol"
-       class="icon brands circle fa-instagram"
-       target="_blank" rel="noopener">
-      <span class="label">Instagram</span>
-    </a>
-  </li>
+<!-- Divider -->
+<hr />
 
-  <!-- LinkedIn -->
-  <li>
-    <a href="https://www.linkedin.com/in/global-political-social-media-project/"
-       class="icon brands circle fa-linkedin-in"
-       target="_blank" rel="noopener">
-      <span class="label">LinkedIn</span>
-    </a>
-  </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPS-POL Project</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* ---------- Sections ---------- */
+    .wrapper {
+      padding: 2rem 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
 
-  <!-- Bluesky (text fallback – safest) -->
-  <li>
-    <a href="https://bsky.app/profile/gps-pol.bsky.social"
-       class="icon circle"
-       target="_blank" rel="noopener">
-      <span class="label">Bluesky</span>
-      🦋
-    </a>
-  </li>
-</ul>
-					
-  <!-- Twitter / X -->
-  <li>
-    <a href="https://twitter.com/gps_pol"
-       class="icon brands circle fa-twitter"
-       target="_blank" rel="noopener">
-      <span class="label">Twitter</span>
-    </a>
-  </li>
-			<ul class="icons">
-			</ul>
-<li>
-  <a href="mailto:globalcampaignrhetoric@wustl.edu"
-     class="icon solid circle fa-envelope">
-    <span class="label">Email</span>
-  </a>
-</li>
-					<ul class="copyright">
-						<li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+    /* ---------- Conferences ---------- */
+    .conference-list {
+      padding-left: 1.2rem;
+      margin-left: 1.4;
+      list-style-position: outside;
+    }
+    .conference-list li {
+      margin-bottom: 1rem;
+      line-height: 1.4rem;
+    }
+    .wrapper.style3 header.major {
+      margin-bottom: 1rem;
+    }
+
+    /* ---------- Request Box ---------- */
+    .request-box {
+      background: #f9f9f9;
+      padding: 2rem 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .request-box input[type="text"],
+    .request-box input[type="email"],
+    .request-box textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+    .request-box input:focus,
+    .request-box textarea:focus {
+      border-color: #0078d4;
+      box-shadow: 0 0 5px rgba(0,120,212,0.3);
+      outline: none;
+    }
+    .request-box input[type="submit"] {
+      background: #0078d4;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .request-box input[type="submit"]:hover {
+      background: #005ea3;
+    }
+
+    /* ---------- Contact Box ---------- */
+    .contact-box {
+      background: #222;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+    .contact-box .follow-text {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .contact-box .icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.5rem 0;
+    }
+    .contact-box .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: #444;
+      color: #fff;
+      border-radius: 50%;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .contact-box .icon:hover {
+      background: #666;
+    }
+
+    /* ---------- Footer ---------- */
+    #footer {
+      background: #111;
+      color: #aaa;
+      padding: 1rem 1rem;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    #footer a {
+      color: #aaa;
+      text-decoration: none;
+    }
+    #footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== Professional Conferences ==================== -->
+  <section class="wrapper style3 container conferences-left">
+    <header class="major">
+      <h2>Professional Conferences</h2>
+    </header>
+
+    <div class="row">
+      <div class="col-12">
+        <ul class="conference-list">
+			<li>
+            <strong>Dahjin Kim, Taishi Muraoka, Christopher Lucas, Jacob Montgomery, and Margit Tavits.</strong> (2023).
+            <em>Emotional Responses to Election Outcomes in a Comparative Perspective.</em>
+            Midwest Political Science Association, Chicago, Illinois.
+          </li>
+          <li>
+            <strong>Cecilia Sui, Soyeon Jeon, Christopher Lucas, Jacob Montgomery, and Margit Tavits.</strong> (2025).
+            <em>A Framework for Multilingual Text Analysis of Political Discourse: Detecting Populism in Facebook Posts from 2020–2024 Elections Around the World.</em>
+            Annual Summer Meeting of the Society for Political Methodology (PolMeth), Atlanta, Georgia.
+          </li>
+          <li>
+            <strong>Rex Weiye Deng, Taishi Muraoka, and Margit Tavits.</strong> (2025).
+            <em>Exploiting Extremism: Radical Right Parties’ Responses to Right-Wing Violence.</em>
+            American Political Science Association, Vancouver, Canada.
+          </li>
+          <li>
+            <strong>Cecilia Sui, Soyeon Jeon, Christopher Lucas, Jacob Montgomery, and Margit Tavits.</strong> (2025).
+            <em>One Language Is Enough: Using Transfer Learning to Detect Populist Rhetoric Across 25 Languages Without Translation.</em>
+            American Political Science Association, Vancouver, Canada.
+          </li>
+          <li>
+            <strong>Ruilin Lai, Margit Tavits, Jacob Montgomery, and Christopher Lucas.</strong> (2025).
+            <em>The Emotional Architecture of Populism: The Divergent Effects of Anti-Elite and People-Centric Frames.</em>
+            European Political Science Association, Madrid, Spain.
+          </li>
+          <li>
+            <strong>Ruilin Lai, Margit Tavits, Jacob Montgomery, and Christopher Lucas.</strong> (2025).
+            <em>The Emotional Architecture of Populism: The Divergent Effects of Anti-Elite and People-Centric Frames.</em>
+            International Society for Political Psychology, Prague, Czech Republic.
+          </li>
+          <li>
+            <strong>Raduan van Velthem Meira, Jacob Montgomery, and Taishi Muraoka.</strong> (2025).
+            <em>Which Candidates Campaign (on Social Media)? A Comparative Analysis of Electoral and Party Influences on Candidates’ Use of Facebook.</em>
+            Midwest Political Science Association, Chicago, Illinois.
+          </li>
+          <li>
+            <strong>Raduan van Velthem Meira, Jacob Montgomery, and Taishi Muraoka.</strong> (2025).
+            <em>Who Uses Facebook to Campaign? Electoral Institutions, Party Characteristics, and Candidates’ Social Media Adoption.</em>
+            American Political Science Association, Vancouver, Canada.
+          </li>
+        </ul>
+		      </div>
+    </div>
+  </section>
+
+<!-- ==================== Request Dataset Access ==================== -->
+<section id="request" class="wrapper style4 special container">
+  <div class="request-box" style="max-width:900px; margin:0 auto; text-align:center;">
+
+    <header class="major" style="text-align:center; margin-bottom:1.5rem;">
+      <h2>Request More Specific Dataset Access</h2>
+      <p>Please complete the form below to request access to the GPS-POL dataset.</p>
+    </header>
+
+    <form
+      action="https://formsubmit.co/globalcampaignrhetoric@wustl.edu"
+      method="POST"
+      style="display:flex; flex-direction:column; gap:1em;"
+    >
+
+      <!-- Disable captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Redirect to thank-you page -->
+      <input
+        type="hidden"
+        name="_next"
+        value="https://gps-pol.github.io/thank-you.html"
+      >
+
+      <input
+        type="text"
+        name="Full Name"
+        placeholder="Full Name"
+        required
+        style="padding:0.8em; border-radius:5px; border:1px solid #ccc;"
+      >
+
+      <input
+        type="email"
+        name="Email"
+        placeholder="Email Address"
+        required
+        style="padding:0.8em; border-radius:5px; border:1px solid #ccc;"
+      >
+
+      <input
+        type="text"
+        name="Institution"
+        placeholder="Institution / Affiliation"
+        required
+        style="padding:0.8em; border-radius:5px; border:1px solid #ccc;"
+      >
+
+      <textarea
+        name="Request"
+        placeholder="Brief description of requested data and intended use"
+        rows="5"
+        required
+        style="padding:0.8em; border-radius:5px; border:1px solid #ccc;"
+      ></textarea>
+
+      <input
+        type="submit"
+        value="Submit Request"
+        style="
+          background-color:#000;
+          color:#fff;
+          border:none;
+          padding:1em;
+          border-radius:5px;
+          cursor:pointer;
+          font-weight:bold;
+        "
+      >
+
+    </form>
+
+  </div>
+</section>
 
 
-				</footer>
+  <!-- ==================== Follow Us / Contact ==================== -->
+  <section id="contact" class="wrapper style4 special container">
+    <div class="contact-box">
+      <p class="follow-text">Follow us on social media</p>
+      <ul class="icons">
+        <li><a href="https://www.instagram.com/gps_pol" class="icon brands circle fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/global-political-social-media-project/" class="icon brands circle fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://bsky.app/profile/gps-pol.bsky.social" class="icon circle" target="_blank"><span class="label">Bluesky</span> 🦋</a></li>
+        <li><a href="https://twitter.com/gps_pol" class="icon brands circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+      </ul>
 
-		</div>
+      <div class="email-contact" style="margin-top:0.5rem;">
+        <p class="follow-text" style="margin-bottom:0rem; font-weight:bold;">Email us</p>
+        <a href="mailto:globalcampaignrhetoric@wustl.edu" 
+           class="icon solid circle fa-envelope" 
+           style="display:inline-flex; align-items:center; justify-content:center; font-size:2rem; width:60px; height:60px; border-radius:50%; text-decoration:none; background-color:#333; color:#fff;">
+          <span class="label" style="display:none;">Email</span>
+        </a>
+      </div>
+  </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<!-- ==================== Footer ==================== -->
+<footer id="footer">
 
-	</body>
+  <div class="funding" style="margin-bottom:0.75rem; padding-bottom:0.75rem; border-bottom:1px solid rgba(255,255,255,0.2);">
+    <p style="font-size:0.85rem; line-height:1.5; margin:0;">
+      <strong>Project Funded By:</strong><br>
+      National Science Foundation (Grant No. 2215008)<br>
+      Carnegie Corporation of New York (Grant No. G-23-60440)
+    </p>
+  </div>
 
+  <ul class="copyright" style="list-style:none; padding:0; margin:0;">
+    <li>&copy; Washington University in St. Louis (Last Updated: Jan 2026)</li>
+    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+  </ul>
+
+</footer>
+
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
