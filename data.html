@@ -10,9 +10,9 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background-color: #f7faf9;
       margin: 0;
-      padding: 0;
     }
 
+    /* ================== CENTERED CONTENT ================== */
     .container {
       max-width: 720px;
       margin: 0 auto;
@@ -20,19 +20,18 @@
       text-align: center;
     }
 
-    h1 {
+    h1, h2 {
       color: #083d3f;
-      font-size: 2.2rem;
-      margin-bottom: 0.5em;
     }
 
     .intro {
       font-size: 1.05rem;
       color: #4a6b6c;
-      margin-bottom: 2.5em;
       line-height: 1.6;
+      margin-bottom: 2em;
     }
 
+    /* ================== CARDS ================== */
     .download-card {
       background: #ffffff;
       border-radius: 12px;
@@ -41,109 +40,8 @@
       margin-bottom: 1.5em;
     }
 
-    .download-card h2 {
-      margin-top: 0;
-      color: #083d3f;
-      font-size: 1.3rem;
-    }
-
     .download-card p {
       color: #5f7f80;
-      margin-bottom: 1.5em;
-      font-size: 0.95rem;
-    }
-
-    .download-button {
-      display: inline-block;
-      padding: 14px 30px;
-      background-color: #006d6f;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 999px; /* pill-shaped */
-      font-weight: 600;
-      font-size: 15px;
-      transition: background-color 0.2s ease, transform 0.2s ease;
-    }
-
-    .download-button:hover {
-      background-color: #004f52;
-      transform: translateY(-2px);
-    }
-  </style>
-</head>
-
-<body>
-<!-- Banner -->
-<section id="banner" style="background-color:#c0392b; color:#fff; padding:4em 1.5em; text-align:center; border-radius:12px; margin:2em 0;">
-  <div class="inner">
-    <header>
-      <h2 style="font-size:2.2rem; margin:0 0 0.5em; letter-spacing:1px;">GPS-POL</h2>
-    </header>
-
-    <p style="font-size:1.1rem; color:#fceae9; margin-bottom:2em;">
-      Global Political Social Media Project Dataset
-    </p>
-  </div>
-</section>
-
-
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<head>
-  <meta charset="UTF-8">
-  <title>Data Download</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #f7faf9;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 4em 1.5em;
-      text-align: center;
-    }
-
-    h1 {
-      color: #083d3f;
-      font-size: 2.2rem;
-      margin-bottom: 0.5em;
-    }
-
-    .intro {
-      font-size: 1.05rem;
-      color: #4a6b6c;
-      margin-bottom: 2.5em;
-      line-height: 1.6;
-    }
-
-    .download-card {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 2em;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
-      margin-bottom: 1.5em;
-    }
-
-    .download-card h2 {
-      margin-top: 0;
-      color: #083d3f;
-      font-size: 1.3rem;
-    }
-
-    .download-card p {
-      color: #5f7f80;
-      margin-bottom: 1.5em;
-      font-size: 0.95rem;
     }
 
     .download-button {
@@ -154,208 +52,115 @@
       text-decoration: none;
       border-radius: 999px;
       font-weight: 600;
-      font-size: 15px;
-      transition: background-color 0.2s ease, transform 0.2s ease;
     }
 
     .download-button:hover {
       background-color: #004f52;
-      transform: translateY(-2px);
+    }
+
+    /* ================== FULL-WIDTH TABLE SECTION ================== */
+    .table-section {
+      width: 100%;
+      padding: 3em 0;
+    }
+
+    .table-wrapper {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      overflow-x: auto;
+      padding: 0 1.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      white-space: nowrap;
+    }
+
+    th, td {
+      padding: 1em 1.5em;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    thead th {
+      background-color: #c0392b;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #fdecea;
+    }
+
+    a {
+      color: #006d6f;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>Access Our Data</h1>
+<!-- ================== BANNER ================== -->
+<section style="background:#c0392b; color:#fff; padding:4em 1.5em; text-align:center;">
+  <h2 style="margin:0;">GPS-POL</h2>
+  <p>Global Political Social Media Project Dataset</p>
+</section>
 
-    <p class="intro">
-  We make our datasets publicly available for research and transparency. If you are interested in more specific information such as post level data, please fill out our 
-  <a href="https://gps-pol.github.io/#request" style="color:#c0392b; font-weight:600; background-color:#fdecea; padding:0.2em 0.5em; border-radius:6px; text-decoration:none;">
-    Request Form
-  </a>.
-      If you are requesting additional post level data, you will be required to sign our Data Sharing Agreement, and we are only allowed to share specific information as regulated by Meta relation to our contract with them.
-</p>
+<!-- ================== INTRO ================== -->
+<div class="container">
+  <h1>Access Our Data</h1>
 
-    Cite us: Global Political Social Media Project (Retreived on DATE) https://gps-pol.github.io/data.html
-    <p>
-      
-    <p class="intro" style="font-size:1.1rem; color:#c0392b; font-weight:600; background-color:#fdecea; padding:0.5em 1em; border-radius:8px; display:inline-block;">
-  Use the links below to download the most current documentation.
-</p>
+  <p class="intro">
+    We make our datasets publicly available for research and transparency.
+    For post-level data, please complete our
+    <a href="https://gps-pol.github.io/#request">Request Form</a>.
+  </p>
 
-
-    
-  <div class="container">
+  <p class="intro" style="font-weight:600; color:#c0392b;">
+    Use the links below to download the most current documentation.
+  </p>
 
   <div class="download-card">
     <h2>Candidate Codebook</h2>
-    <p>
-      Variable definitions and documentation for candidate-level data.
-    </p>
-    <a
-      href="https://wustl.box.com/shared/static/iup2b0dk4mtbos9nxl1oij9ig5tl5q0e"
-      class="download-button"
-      target="_blank"
-      rel="noopener"
-    >
+    <p>Variable definitions for candidate-level data.</p>
+    <a class="download-button" href="https://wustl.box.com/shared/static/iup2b0dk4mtbos9nxl1oij9ig5tl5q0e" target="_blank">
       Download Candidate Codebook
     </a>
   </div>
 
   <div class="download-card">
     <h2>Parties Codebook</h2>
-    <p>
-      Documentation for political party variables and classifications.
-    </p>
-    <a
-      href="https://wustl.box.com/shared/static/idfa8anwl7d9lwck8fslpjstcm93mrkn"
-      class="download-button"
-      target="_blank"
-      rel="noopener"
-    >
+    <p>Documentation for party variables.</p>
+    <a class="download-button" href="https://wustl.box.com/shared/static/idfa8anwl7d9lwck8fslpjstcm93mrkn" target="_blank">
       Download Parties Codebook
     </a>
   </div>
+</div>
 
-  <div class="download-card">
-    <h2>Countries Collected</h2>
-    <p>
-      A complete list of countries included in the dataset, with country ISO and 2-digit country code.
-    </p>
-    <a
-      href="https://wustl.box.com/shared/static/v3ypvdyp3j3t68g9b9wma6v9ol6b5cfi"
-      class="download-button"
-      target="_blank"
-      rel="noopener"
-    >
-      Download Countries List
-    </a>
-  </div>
-
-  <div class="download-card">
-    <h2>Elections Collected</h2>
-    <p>
-      A complete list of elections included in the dataset, with country and year coverage.
-    </p>
-    <a
-      href="https://wustl.box.com/shared/static/hj5ov032lluw3a748hb7gure0hqu9r4j"
-      class="download-button"
-      target="_blank"
-      rel="noopener"
-    >
-      Download Elections List
-    </a>
-    </div>
-    
-  <div class="wide-table">
-<table class="election-table">
-
-  </div>
-    /* ================== Table styling ================== */
-    .election-table {
-  width: 100%;
-  table-layout: auto;
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-    .election-table th,
-    .election-table td {
-      padding: 1em 1.5em;
-      text-align: left;
-      vertical-align: middle;
-      border-bottom: 1px solid #e0e0e0;
-    }
-
-    .election-table thead th {
-      background-color: #c0392b; /* banner red */
-      color: #ffffff;
-      font-weight: 600;
-    }
-
-    .election-table tbody tr:nth-child(even) {
-      background-color: #fdecea;
-    }
-
-    .election-table tbody tr:nth-child(odd) {
-      background-color: #ffffff;
-    }
-
-    .election-table td a {
-      color: #006d6f; /* teal links */
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .election-table td a:hover {
-      text-decoration: underline;
-      color: #004f52;
-    }
-
-    /* ================== Column widths ================== */
-   .election-table th:nth-child(3),
-.election-table td:nth-child(3) {
-  min-width: 220px;
-}
-
-.election-table th:nth-child(4),
-.election-table td:nth-child(4),
-.election-table th:nth-child(5),
-.election-table td:nth-child(5) {
-  min-width: 160px;
-}
-
-
-
-    /* ================== Wide container ================== */
-  <h2>Specific Election Files</h2>
-  <p class="intro">
-    For each election, you can download the candidate, district, and region files below.
-  </p>
-
-   <div class="wide-table">
-    <thead>
-      <tr>
-        <th>Election</th>
-        <th>Date</th>
-        <th>Election Type</th>
-        <th>Candidate</th>
-        <th>Districts</th>
-        <th>Region</th>
-      </tr>
-    </thead>
-/* Full-width table section */
-.table-section {
-  width: 100%;
-  padding: 2em 0;
-}
-
-/* Break out of centered layout */
-.wide-table {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  overflow-x: auto;
-}
-
-/* Table fills screen */
-.election-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  table-layout: auto;
-}
-
-/* Prevent ugly wrapping */
-.election-table th,
-.election-table td {
-  white-space: nowrap;
-  padding: 1em 1.5em;
-}
-
-    <tbody>
-      <tr>
+<!-- ================== FULL-WIDTH TABLE ================== -->
+<section class="table-section">
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Election</th>
+          <th>Date</th>
+          <th>Election Type</th>
+          <th>Candidate</th>
+          <th>Districts</th>
+          <th>Region</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
         <td>Albania</td>
         <td>April 25, 2021</td>
         <td>Parliament</td>
