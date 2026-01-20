@@ -256,13 +256,13 @@
   </div>
     /* ================== Table styling ================== */
     .election-table {
-      width: 150%;
+      width: 100%;
       max-width: 150%;
       border-collapse: separate;
       border-spacing: 0;
       font-size: 0.95rem;
       margin-top: 1.5em;
-      table-layout: auto;
+      table-layout: fixed;
     }
 
     .election-table th,
@@ -300,27 +300,34 @@
 
     /* ================== Column widths ================== */
     .election-table th:nth-child(1),
-    .election-table td:nth-child(1) { width: 25%; }
+    .election-table td:nth-child(1) { width: 18%; }
 
     .election-table th:nth-child(2),
-    .election-table td:nth-child(2) { width: 25%; }
+    .election-table td:nth-child(2) { width: 15%; }
 
     .election-table th:nth-child(3),
-    .election-table td:nth-child(3) { width: 25%; }
+    .election-table td:nth-child(3) { width: 22%; }
 
     .election-table th:nth-child(4),
     .election-table td:nth-child(4),
     .election-table th:nth-child(5),
     .election-table td:nth-child(5),
     .election-table th:nth-child(6),
-    .election-table td:nth-child(6) { width: 25%; }
+    .election-table td:nth-child(6) { width: 15%; }
+.election-table td {
+  word-break: break-word;
+}
+
+.election-table td a {
+  white-space: nowrap;
+}
 
     /* ================== Wide container ================== */
     .wide-table {
-      max-width: 1500px;
-      width: 95%;
+      max-width: 1800px;
+      width: 100%;
       margin: 0 auto;
-      overflow-x: visible;
+      overflow-x: auto;
     }
   </style>
 
