@@ -256,13 +256,13 @@
   </div>
     /* ================== Table styling ================== */
     .election-table {
-      width: 150%;
-      max-width: 150%;
+      width: max-content;
+      max-width: 100%;
       border-collapse: separate;
       border-spacing: 0;
       font-size: 0.95rem;
       margin-top: 1.5em;
-      table-layout: fixed;
+      table-layout: auto;
     }
 
     .election-table th,
@@ -320,9 +320,7 @@
 
     /* ================== Wide container ================== */
     .wide-table {
-      max-width: 1800px;
-      width: 100%;
-      margin: 0 auto;
+      max-width: 100%;
       overflow-x: auto;
     }
   </style>
