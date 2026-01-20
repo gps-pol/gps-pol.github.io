@@ -252,8 +252,6 @@
   <div class="wide-table">
 <table class="election-table">
 
-  <style>
-    </a>
   </div>
     /* ================== Table styling ================== */
     .election-table {
@@ -312,19 +310,12 @@
 
 
     /* ================== Wide container ================== */
-    .wide-table {
-  width: 100vw;              /* full screen width */
-  margin-left: calc(50% - 50vw);  /* break out of page padding */
-  overflow-x: auto;
-}
-  </style>
-
   <h2>Specific Election Files</h2>
   <p class="intro">
     For each election, you can download the candidate, district, and region files below.
   </p>
 
-  <table class="election-table">
+   <div class="wide-table">
     <thead>
       <tr>
         <th>Election</th>
@@ -335,6 +326,33 @@
         <th>Region</th>
       </tr>
     </thead>
+/* Full-width table section */
+.table-section {
+  width: 100%;
+  padding: 2em 0;
+}
+
+/* Break out of centered layout */
+.wide-table {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow-x: auto;
+}
+
+/* Table fills screen */
+.election-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+/* Prevent ugly wrapping */
+.election-table th,
+.election-table td {
+  white-space: nowrap;
+  padding: 1em 1.5em;
+}
 
     <tbody>
       <tr>
